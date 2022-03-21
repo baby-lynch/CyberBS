@@ -1,6 +1,6 @@
 #include "header.h"
 
-int main()
+int main(int argc, char *argv[])
 {
     FILE *fp;
     const char *FILEPATH = "./pcap/baidu/All.pcap";
@@ -73,12 +73,12 @@ int main()
         if (DATA_LEN > 0)
         {
             memcpy(check_bytes, Payload, 2);
-            if (check_bytes[0] >= 0x14 && check_bytes[0] <= 0x17)
+            if (check_bytes[0] >= 0x14 && check_bytes[0] <= 0x17) // determine whether a packet belongs to TLS
             {
                 if (check_bytes[1] == 0x03)
                 {
                     fprintf(output, "|Packet Type: TLS\n");
-                    tls_info_extr(Payload, DATA_LEN);
+                    tls_info_extr(Payload, DATA_LEN); // extract information from TLS
                 }
                 else
                 {
@@ -102,4 +102,11 @@ int main()
     free(pkt_header);
     free(ip_header);
     free(tcp_header);
+
+    printf("argc: %d\n", argc);
+    for (int i = 0; i < argc; i++)
+    {
+        printf("argv[%d]:%s\n", i + 1, argv[i]);
+    }
+    return 0;
 }
