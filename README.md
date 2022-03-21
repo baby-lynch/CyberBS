@@ -2,7 +2,6 @@
 network behavioral science homework project
 
 # project structure 
-.
 ├── header.h                  // Ethernet, IP, TCP header format defined in here 
 ├── main                      
 ├── main.c                    // read packet one by one from pcap file
