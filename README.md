@@ -1,9 +1,12 @@
 # netbs
-network behavioral science homework project
 
-# project structure 
-├── header.h                  // Ethernet, IP, TCP header format defined in here 
-├── main                      
+network behavioral science homework project
+extract basic IP,TCP info and more specific info such as Cipher Suite, Server Name from TLS packets
+
+## project structure
+
+├── header.h                  // Ethernet, IP, TCP header format defined in here
+├── main
 ├── main.c                    // read packet one by one from pcap file
 ├── Makefile
 ├── output.txt                // info extrated from TLS packets printed in this txt file
@@ -12,5 +15,6 @@ network behavioral science homework project
 ├── tls_info_extr.c           // extract info specifically from TLS packets
 └── util.h                    // global stuffs and utilies
 
-# dependencies
+## dependencies
+
 libpcap: sudo apt install libpcap-dev
