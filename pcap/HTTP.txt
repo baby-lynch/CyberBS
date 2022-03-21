@@ -1,0 +1,61 @@
+0000  00 0c 29 e5 cd d4 00 50 56 e3 fd 36 08 00 45 00   ..)....PV..6..E.
+0010  03 a8 1f ba 00 00 80 06 5c 42 bc b8 15 6c c0 a8   ........\B...l..
+0020  28 87 00 50 e7 6c 4e 73 5f 6a 98 e9 12 c0 50 18   (..P.lNs_j....P.
+0030  fa f0 56 d8 00 00 48 54 54 50 2f 31 2e 31 20 32   ..V...HTTP/1.1 2
+0040  30 30 20 4f 4b 0d 0a 44 61 74 65 3a 20 53 61 74   00 OK..Date: Sat
+0050  2c 20 31 32 20 4d 61 72 20 32 30 32 32 20 30 37   , 12 Mar 2022 07
+0060  3a 30 33 3a 32 32 20 47 4d 54 0d 0a 53 65 72 76   :03:22 GMT..Serv
+0070  65 72 3a 20 41 70 61 63 68 65 0d 0a 4c 61 73 74   er: Apache..Last
+0080  2d 4d 6f 64 69 66 69 65 64 3a 20 57 65 64 2c 20   -Modified: Wed, 
+0090  32 36 20 41 75 67 20 31 39 39 32 20 30 30 3a 34   26 Aug 1992 00:4
+00a0  30 3a 35 33 20 47 4d 54 0d 0a 45 54 61 67 3a 20   0:53 GMT..ETag: 
+00b0  22 32 39 38 2d 32 38 61 31 38 65 66 35 62 32 66   "298-28a18ef5b2f
+00c0  34 30 22 0d 0a 41 63 63 65 70 74 2d 52 61 6e 67   40"..Accept-Rang
+00d0  65 73 3a 20 62 79 74 65 73 0d 0a 43 6f 6e 74 65   es: bytes..Conte
+00e0  6e 74 2d 4c 65 6e 67 74 68 3a 20 36 36 34 0d 0a   nt-Length: 664..
+00f0  43 6f 6e 6e 65 63 74 69 6f 6e 3a 20 63 6c 6f 73   Connection: clos
+0100  65 0d 0a 43 6f 6e 74 65 6e 74 2d 54 79 70 65 3a   e..Content-Type:
+0110  20 74 65 78 74 2f 68 74 6d 6c 0d 0a 0d 0a 3c 74    text/html....<t
+0120  69 74 6c 65 3e 4f 76 65 72 76 69 65 77 20 6f 66   itle>Overview of
+0130  20 74 68 65 20 57 65 62 3c 2f 74 69 74 6c 65 3e    the Web</title>
+0140  0a 3c 68 31 3e 47 65 6e 65 72 61 6c 20 4f 76 65   .<h1>General Ove
+0150  72 76 69 65 77 3c 2f 68 31 3e 0a 54 68 65 72 65   rview</h1>.There
+0160  20 69 73 20 6e 6f 20 22 74 6f 70 22 20 74 6f 20    is no "top" to 
+0170  74 68 65 20 57 6f 72 6c 64 2d 57 69 64 65 20 57   the World-Wide W
+0180  65 62 2e 0a 59 6f 75 20 63 61 6e 20 6c 6f 6f 6b   eb..You can look
+0190  20 61 74 20 69 74 20 66 72 6f 6d 20 6d 61 6e 79    at it from many
+01a0  20 70 6f 69 6e 74 73 20 6f 66 20 76 69 65 77 2e    points of view.
+01b0  0a 49 66 20 79 6f 75 20 68 61 76 65 20 6e 6f 20   .If you have no 
+01c0  6f 74 68 65 72 20 62 69 61 73 2c 20 68 65 72 65   other bias, here
+01d0  20 61 72 65 20 73 6f 6d 65 20 77 61 79 73 20 6f    are some ways o
+01e0  66 20 6c 6f 6f 6b 69 6e 67 20 66 6f 72 0a 69 6e   f looking for.in
+01f0  66 6f 72 6d 61 74 69 6f 6e 2e 0a 3c 44 4c 3e 0a   formation..<DL>.
+0200  3c 44 54 3e 3c 61 20 68 72 65 66 3d 62 79 53 75   <DT><a href=bySu
+0210  62 6a 65 63 74 2f 4f 76 65 72 76 69 65 77 2e 68   bject/Overview.h
+0220  74 6d 6c 3e 62 79 20 53 75 62 6a 65 63 74 3c 2f   tml>by Subject</
+0230  61 3e 0a 3c 44 44 3e 41 20 63 6c 61 73 73 69 66   a>.<DD>A classif
+0240  69 63 61 74 69 6f 6e 20 62 79 20 73 75 62 6a 65   ication by subje
+0250  63 74 20 6f 66 20 69 6e 74 65 72 65 73 74 2e 20   ct of interest. 
+0260  49 6e 63 6f 6d 70 6c 65 74 65 0a 62 75 74 20 65   Incomplete.but e
+0270  61 73 69 65 73 74 20 74 6f 20 75 73 65 2e 0a 3c   asiest to use..<
+0280  44 54 3e 3c 61 20 68 72 65 66 3d 42 79 41 63 63   DT><a href=ByAcc
+0290  65 73 73 2e 68 74 6d 6c 3e 62 79 20 54 79 70 65   ess.html>by Type
+02a0  3c 2f 61 3e 0a 3c 44 44 3e 4c 6f 6f 6b 69 6e 67   </a>.<DD>Looking
+02b0  20 62 79 20 74 79 70 65 20 6f 66 20 73 65 72 76    by type of serv
+02c0  69 63 65 20 28 61 63 63 65 73 73 20 70 72 6f 74   ice (access prot
+02d0  6f 63 6f 6c 2c 20 65 74 63 29 0a 6d 61 79 20 61   ocol, etc).may a
+02e0  6c 6c 6f 77 20 74 6f 20 66 69 6e 64 20 74 68 69   llow to find thi
+02f0  6e 67 73 20 69 66 20 79 6f 75 20 6b 6e 6f 77 20   ngs if you know 
+0300  77 68 61 74 20 79 6f 75 20 61 72 65 20 6c 6f 6f   what you are loo
+0310  6b 69 6e 67 20 66 6f 72 2e 0a 3c 2f 44 4c 3e 0a   king for..</DL>.
+0320  49 66 20 79 6f 75 20 68 61 76 65 20 74 6f 20 75   If you have to u
+0330  73 65 20 61 20 22 74 6f 70 22 20 6e 6f 64 65 2c   se a "top" node,
+0340  20 77 65 20 72 65 63 6f 6d 6d 65 6e 64 20 65 69    we recommend ei
+0350  74 68 65 72 20 74 68 69 73 20 6e 6f 64 65 0a 6f   ther this node.o
+0360  72 20 74 68 65 20 73 75 62 6a 65 63 74 20 6c 69   r the subject li
+0370  73 74 2e 0a 53 65 65 20 61 6c 73 6f 3a 20 3c 61   st..See also: <a
+0380  20 68 72 65 66 3d 2e 2e 2f 57 57 57 2f 54 68 65    href=../WWW/The
+0390  50 72 6f 6a 65 63 74 2e 68 74 6d 6c 3e 41 62 6f   Project.html>Abo
+03a0  75 74 20 74 68 65 20 57 33 20 70 72 6f 6a 65 63   ut the W3 projec
+03b0  74 3c 2f 61 3e 2e                                 t</a>.
+

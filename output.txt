@@ -1,0 +1,1216 @@
+ _______________P A C K E T 1_______________
+|Source IP Address: 192.168.40.135
+|Destination IP Address: 110.242.68.4
+|Source Port: 41568
+|Destination Port: 443
+|Payload Size: 517 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Handshake-Client Hello
+|Random: f878cf4251170e6afc52fc5802abd25e232a0a7c07aeff376c74819f8d332220
+|Session ID: caef08e814cdd410410fa663751eb0b6a0e388421ef13065396c8e01a20fd905
+|Cipher Suite: { 0xcaca 0x1301 0x1302 0x1303 0xc02b 0xc02f 0xc02c 0xc030 0xcca9 0xcca8 0xc013 0xc014 0x9c 0x9d 0x2f 0x35 }
+|Server Name: www.baidu.com
+|Version: TLS v1.0
+
+
+ _______________P A C K E T 2_______________
+|Source IP Address: 192.168.40.135
+|Destination IP Address: 110.242.68.4
+|Source Port: 41570
+|Destination Port: 443
+|Payload Size: 517 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Handshake-Client Hello
+|Random: f62df71b45a791fd4ff785911c2e55dbe944d0227ad2206c281be04ed257db35
+|Session ID: 3a73132e0a039bc1ebc5c067fc42fcdca5b00c627957166764195ac882be6497
+|Cipher Suite: { 0xbaba 0x1301 0x1302 0x1303 0xc02b 0xc02f 0xc02c 0xc030 0xcca9 0xcca8 0xc013 0xc014 0x9c 0x9d 0x2f 0x35 }
+|Server Name: www.baidu.com
+|Version: TLS v1.0
+
+
+ _______________P A C K E T 3_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 158 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Handshake-Server Hello
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 4_______________
+|Source IP Address: 192.168.40.135
+|Destination IP Address: 110.242.68.4
+|Source Port: 41568
+|Destination Port: 443
+|Payload Size: 51 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Changer Cipher Spec
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 5_______________
+|Source IP Address: 192.168.40.135
+|Destination IP Address: 110.242.68.4
+|Source Port: 41568
+|Destination Port: 443
+|Payload Size: 1606 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 6_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41570
+|Payload Size: 158 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Handshake-Server Hello
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 7_______________
+|Source IP Address: 192.168.40.135
+|Destination IP Address: 110.242.68.4
+|Source Port: 41570
+|Destination Port: 443
+|Payload Size: 51 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Changer Cipher Spec
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 8_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 5623 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 9_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 10049 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 10_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 2880 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 11_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 9983 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 12_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 1082 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 13_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 1440 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 14_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 4320 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 15_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 2880 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 16_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 8640 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 17_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 5760 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 18_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 8640 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 19_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 2880 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 20_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 7200 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 21_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 4320 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 22_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 4320 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 23_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 7978 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 24_______________
+|Source IP Address: 192.168.40.135
+|Destination IP Address: 110.242.68.4
+|Source Port: 41452
+|Destination Port: 443
+|Payload Size: 1522 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 25_______________
+|Source IP Address: 192.168.40.135
+|Destination IP Address: 110.242.68.4
+|Source Port: 41574
+|Destination Port: 443
+|Payload Size: 517 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Handshake-Client Hello
+|Random: c74c0935934be751c16081f30edf3363f1732773a427468a2748ab827d31a297
+|Session ID: d2d4db42aaa8ba445e02ff216659e12b006281406807139627038255b6803da2
+|Cipher Suite: { 0x7a7a 0x1301 0x1302 0x1303 0xc02b 0xc02f 0xc02c 0xc030 0xcca9 0xcca8 0xc013 0xc014 0x9c 0x9d 0x2f 0x35 }
+|Server Name: sp2.baidu.com
+|Version: TLS v1.0
+
+
+ _______________P A C K E T 26_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41452
+|Payload Size: 549 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 27_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41574
+|Payload Size: 158 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Handshake-Server Hello
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 28_______________
+|Source IP Address: 192.168.40.135
+|Destination IP Address: 110.242.68.4
+|Source Port: 41574
+|Destination Port: 443
+|Payload Size: 51 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Changer Cipher Spec
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 29_______________
+|Source IP Address: 192.168.40.135
+|Destination IP Address: 110.242.68.4
+|Source Port: 41574
+|Destination Port: 443
+|Payload Size: 2335 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 30_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41574
+|Payload Size: 549 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 31_______________
+|Source IP Address: 192.168.40.135
+|Destination IP Address: 110.242.68.4
+|Source Port: 41568
+|Destination Port: 443
+|Payload Size: 2800 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 32_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 870 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 33_______________
+|Source IP Address: 192.168.40.135
+|Destination IP Address: 110.242.68.4
+|Source Port: 41452
+|Destination Port: 443
+|Payload Size: 1496 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 34_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41452
+|Payload Size: 549 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 35_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41476
+|Payload Size: 31 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Encrypted Alert
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 36_______________
+|Source IP Address: 192.168.40.135
+|Destination IP Address: 110.242.68.4
+|Source Port: 41452
+|Destination Port: 443
+|Payload Size: 1490 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 37_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41452
+|Payload Size: 549 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 38_______________
+|Source IP Address: 192.168.40.135
+|Destination IP Address: 110.242.68.4
+|Source Port: 41568
+|Destination Port: 443
+|Payload Size: 1719 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 39_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 2880 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 40_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 2549 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 41_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 3860 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 42_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 3448 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 43_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 1440 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 44_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 4851 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 45_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 5966 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 46_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 3391 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 47_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 1440 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 48_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 1271 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 49_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 1440 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 50_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 5760 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 51_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 4320 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 52_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 5285 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 53_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 6915 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 54_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 4155 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 55_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 2582 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 56_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 2715 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 57_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 2683 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 58_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 3130 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 59_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 1433 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 60_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 1440 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 61_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 5760 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 62_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 1440 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 63_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 7200 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 64_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 7200 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 65_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 4320 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 66_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 2880 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 67_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 1440 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 68_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 2880 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 69_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 4320 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 70_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 1440 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 71_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 2440 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 72_______________
+|Source IP Address: 192.168.40.135
+|Destination IP Address: 110.242.68.4
+|Source Port: 41452
+|Destination Port: 443
+|Payload Size: 1584 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 73_______________
+|Source IP Address: 192.168.40.135
+|Destination IP Address: 110.242.68.4
+|Source Port: 41594
+|Destination Port: 443
+|Payload Size: 517 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Handshake-Client Hello
+|Random: 5e4fa74e17b1d140411944be6d95c8748e6f54cc48fe18d9b2e1a27f5bf02d74
+|Session ID: f30a67bf09b20f1b6146f4095d05b5e530751bc426c585542dec22972c46f53b
+|Cipher Suite: { 0x2a2a 0x1301 0x1302 0x1303 0xc02b 0xc02f 0xc02c 0xc030 0xcca9 0xcca8 0xc013 0xc014 0x9c 0x9d 0x2f 0x35 }
+|Server Name: sp1.baidu.com
+|Version: TLS v1.0
+
+
+ _______________P A C K E T 74_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41594
+|Payload Size: 158 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Handshake-Server Hello
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 75_______________
+|Source IP Address: 192.168.40.135
+|Destination IP Address: 110.242.68.4
+|Source Port: 41594
+|Destination Port: 443
+|Payload Size: 51 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Changer Cipher Spec
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 76_______________
+|Source IP Address: 192.168.40.135
+|Destination IP Address: 110.242.68.4
+|Source Port: 41594
+|Destination Port: 443
+|Payload Size: 1939 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 77_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41594
+|Payload Size: 430 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 78_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41452
+|Payload Size: 263 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 79_______________
+|Source IP Address: 192.168.40.135
+|Destination IP Address: 110.242.68.4
+|Source Port: 41452
+|Destination Port: 443
+|Payload Size: 1469 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 80_______________
+|Source IP Address: 192.168.40.135
+|Destination IP Address: 110.242.68.4
+|Source Port: 41568
+|Destination Port: 443
+|Payload Size: 2926 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 81_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 870 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 82_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41452
+|Payload Size: 318 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 83_______________
+|Source IP Address: 192.168.40.135
+|Destination IP Address: 110.242.68.4
+|Source Port: 41568
+|Destination Port: 443
+|Payload Size: 1809 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 84_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 312 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 85_______________
+|Source IP Address: 192.168.40.135
+|Destination IP Address: 110.242.68.4
+|Source Port: 41568
+|Destination Port: 443
+|Payload Size: 1791 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 86_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 312 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 87_______________
+|Source IP Address: 192.168.40.135
+|Destination IP Address: 110.242.68.4
+|Source Port: 41568
+|Destination Port: 443
+|Payload Size: 1790 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 88_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 312 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 89_______________
+|Source IP Address: 192.168.40.135
+|Destination IP Address: 110.242.68.4
+|Source Port: 41568
+|Destination Port: 443
+|Payload Size: 1791 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 90_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 312 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 91_______________
+|Source IP Address: 192.168.40.135
+|Destination IP Address: 110.242.68.4
+|Source Port: 41568
+|Destination Port: 443
+|Payload Size: 1790 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 92_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 312 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 93_______________
+|Source IP Address: 192.168.40.135
+|Destination IP Address: 110.242.68.4
+|Source Port: 41568
+|Destination Port: 443
+|Payload Size: 1786 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 94_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 312 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 95_______________
+|Source IP Address: 192.168.40.135
+|Destination IP Address: 110.242.68.4
+|Source Port: 41568
+|Destination Port: 443
+|Payload Size: 1786 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 96_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 312 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 97_______________
+|Source IP Address: 192.168.40.135
+|Destination IP Address: 110.242.68.4
+|Source Port: 41568
+|Destination Port: 443
+|Payload Size: 1787 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 98_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 312 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 99_______________
+|Source IP Address: 192.168.40.135
+|Destination IP Address: 110.242.68.4
+|Source Port: 41568
+|Destination Port: 443
+|Payload Size: 1789 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 100_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 312 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 101_______________
+|Source IP Address: 192.168.40.135
+|Destination IP Address: 110.242.68.4
+|Source Port: 41568
+|Destination Port: 443
+|Payload Size: 1786 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 102_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 312 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 103_______________
+|Source IP Address: 192.168.40.135
+|Destination IP Address: 110.242.68.4
+|Source Port: 41568
+|Destination Port: 443
+|Payload Size: 1784 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 104_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 312 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 105_______________
+|Source IP Address: 192.168.40.135
+|Destination IP Address: 110.242.68.4
+|Source Port: 41568
+|Destination Port: 443
+|Payload Size: 1787 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 106_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 312 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 107_______________
+|Source IP Address: 192.168.40.135
+|Destination IP Address: 110.242.68.4
+|Source Port: 41568
+|Destination Port: 443
+|Payload Size: 1786 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 108_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 312 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 109_______________
+|Source IP Address: 192.168.40.135
+|Destination IP Address: 110.242.68.4
+|Source Port: 41568
+|Destination Port: 443
+|Payload Size: 1787 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 110_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41568
+|Payload Size: 312 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 111_______________
+|Source IP Address: 110.242.68.4
+|Destination IP Address: 192.168.40.135
+|Source Port: 443
+|Destination Port: 41570
+|Payload Size: 31 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Encrypted Alert
+|Version: TLS v1.2
+
+
