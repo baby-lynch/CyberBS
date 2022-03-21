@@ -11,3 +11,6 @@ network behavioral science homework project
 ├── tls.h                     // structs related to TLS format defined in here
 ├── tls_info_extr.c           // extract info specifically from TLS packets
 └── util.h                    // global stuffs and utilies
+
+# dependencies
+libpcap: sudo apt install libpcap-dev
