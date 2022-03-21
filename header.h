@@ -6,7 +6,7 @@
 #include <arpa/inet.h>
 #include <time.h>
 
-#include "utils.h"
+#include "util.h"
 
 #define BUFSIZE 65535
 #define STRSIZE 256
