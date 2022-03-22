@@ -14,6 +14,7 @@ typedef u_char content_t;
     handshake = 22(0x16),
     application_data = 23(0x17)
 */
+
 typedef u_char handshake_t;
 /*
     hello_request = 0(0x00),
@@ -93,7 +94,7 @@ struct ClientHello
     u_int8_t session_id_len;          // Length of Session ID
     session_id_t SessionID;           // Session ID
     u_int16_t cipher_suite_len;       // Length of Cipher Suites
-    cipher_suite_t CipherSuite[16];   // Ciper Suites
+    cipher_suite_t CipherSuite[16];   // Cipher Suites
     u_int8_t compression_method_len;  // Length of Compresssion Methods
     u_char CompressionMethod;         // Compresssion Methods
     u_int16_t extension_len;          // Length of Compresssion Extensions

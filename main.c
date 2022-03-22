@@ -3,12 +3,12 @@
 int main(int argc, char *argv[])
 {
     FILE *fp;
-    const char *FILEPATH = "./pcap/baidu/All.pcap";
+    const char *FILEPATH = "./pcap/IPV6.pcap";
 
-    int pkt_no = 0;                                                           // Packet sequence number
-    int pkt_offset;                                                           // Packet offset
-    int HEADER_LEN = ETHERNET_HEADER_SIZE + IP_HEADER_SIZE + TCP_HEADER_SIZE; // Length of all headers
-    int DATA_LEN;                                                             // Lenght of payload
+    int pkt_no = 0; // Packet sequence number
+    int pkt_offset; // Packet offset
+    int HEADER_LEN; // Length of all headers
+    int DATA_LEN;   // Lenght of payload
     char src_ip[STRSIZE], dst_ip[STRSIZE];
     u_char Payload[BUFSIZE];
     u_char check_bytes[2]; // check if the packet is TCP or TLS; 0x14<=check_bytes[0]<=0x17, check_bytes[2]=0x03
@@ -16,8 +16,9 @@ int main(int argc, char *argv[])
     /*--------------------------------------Initialization--------------------------------------*/
     file_header = (struct pcap_file_header *)malloc(sizeof(struct pcap_file_header));
     pkt_header = (struct pcap_packet_header *)malloc(sizeof(struct pcap_packet_header));
-    // eth_header = (Ethernet_Header *)malloc(sizeof(Ethernet_Header));
-    ip_header = (struct IP_Header *)malloc(sizeof(struct IP_Header));
+    eth_header = (struct Ethernet_Header *)malloc(sizeof(struct Ethernet_Header));
+    ipv4_header = (struct IPv4_Header *)malloc(sizeof(struct IPv4_Header));
+    ipv6_header = (struct IPv6_Header *)malloc(sizeof(struct IPv6_Header));
     tcp_header = (struct TCP_Header *)malloc(sizeof(struct TCP_Header));
 
     /*-----------------------------Read packets one by one from PCAP-----------------------------*/
@@ -48,17 +49,33 @@ int main(int argc, char *argv[])
         fprintf(output, " _______________P A C K E T %d_______________\n", pkt_no);
 
         /*-------------Ethernet header-------------*/
-        // memset(eth_header, 0, ETHERNET_HEADER_SIZE);
-        // fread(eth_header, ETHERNET_HEADER_SIZE, 1, fp);
-        fseek(fp, 14, SEEK_CUR); // ethernet header is ignored
+        memset(eth_header, 0, ETHERNET_HEADER_SIZE);
+        fread(eth_header, ETHERNET_HEADER_SIZE, 1, fp);
+        switch (BSWAP_16(eth_header->Eth_Type))
+        {
+        case 0x0800:
+            /*-------------IPv4 header-------------*/
+            HEADER_LEN = ETHERNET_HEADER_SIZE + IPv4_HEADER_SIZE + TCP_HEADER_SIZE;
+            memset(ipv4_header, 0, IPv4_HEADER_SIZE);
+            fread(ipv4_header, IPv4_HEADER_SIZE, 1, fp);
+            inet_ntop(AF_INET, (void *)&(ipv4_header->Src_IP), src_ip, 16);
+            inet_ntop(AF_INET, (void *)&(ipv4_header->Dst_IP), dst_ip, 16);
+            fprintf(output, "|Source IPv4 Address: %s\n", src_ip);
+            fprintf(output, "|Destination IPv4 Address: %s\n", dst_ip);
+            break;
 
-        /*-------------IP header-------------*/
-        memset(ip_header, 0, IP_HEADER_SIZE);
-        fread(ip_header, IP_HEADER_SIZE, 1, fp);
-        inet_ntop(AF_INET, (void *)&(ip_header->Src_IP), src_ip, 16);
-        inet_ntop(AF_INET, (void *)&(ip_header->Dst_IP), dst_ip, 16);
-        fprintf(output, "|Source IP Address: %s\n", src_ip);
-        fprintf(output, "|Destination IP Address: %s\n", dst_ip);
+        case 0x86dd:
+            /*-------------IPv6 header-------------*/
+            HEADER_LEN = ETHERNET_HEADER_SIZE + IPv6_HEADER_SIZE + TCP_HEADER_SIZE;
+            memset(ipv6_header, 0, IPv6_HEADER_SIZE);
+            fread(ipv6_header, IPv6_HEADER_SIZE, 1, fp);
+            inet_ntop(AF_INET6, (void *)&(ipv6_header->Src_IP), src_ip, 46);
+            inet_ntop(AF_INET6, (void *)&(ipv6_header->Dst_IP), dst_ip, 46);
+            fprintf(output, "|Source IPv6 Address: %s\n", src_ip);
+            fprintf(output, "|Destination IPv6 Address: %s\n", dst_ip);
+        default:
+            break;
+        }
 
         /*-------------TCP header-------------*/
         memset(tcp_header, 0, TCP_HEADER_SIZE);
@@ -100,13 +117,6 @@ int main(int argc, char *argv[])
     fclose(output);
     free(file_header);
     free(pkt_header);
-    free(ip_header);
+    free(ipv4_header);
     free(tcp_header);
-
-    printf("argc: %d\n", argc);
-    for (int i = 0; i < argc; i++)
-    {
-        printf("argv[%d]:%s\n", i + 1, argv[i]);
-    }
-    return 0;
 }

@@ -46,19 +46,7 @@ void tls_info_extr(u_char *payload, int data_len)
 
     /*-------------Record Layer Header------------*/
     memcpy(record_layer_header, payload, RECORDLAYER_HEADER_SIZE);
-    // printf("\n|===================Payload:===================\n");
-    // for (int i = 0; i < data_len; i++)
-    // {
-    //     if (i % 16 == 0)
-    //     {
-    //         printf("|");
-    //     }
-    //     printf("%02x ", payload[i]);
-    //     if ((i + 1) % 16 == 0)
-    //     {
-    //         printf("\n");
-    //     }
-    // }
+
     fprintf(output, "---------------------------------------------\n");
     fprintf(output, "|Content Type: ");
     switch (record_layer_header->ContentType)
