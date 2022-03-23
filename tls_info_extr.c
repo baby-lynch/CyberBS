@@ -134,25 +134,23 @@ void tls_info_extr(u_char *payload, int data_len)
     fprintf(output, "|Version: ");
     if (record_layer_header->Version.major == 0x03)
     {
-        if (record_layer_header->Version.minor == 0x00)
+        switch (record_layer_header->Version.minor)
         {
+        case 0x00:
             fprintf(output, "SSL\n");
-        }
-        if (record_layer_header->Version.minor == 0x01)
-        {
+            break;
+        case 0x01:
             fprintf(output, "TLS v1.0\n");
-        }
-        else if (record_layer_header->Version.minor == 0x02)
-        {
+            break;
+        case 0x02:
             fprintf(output, "TLS v1.1\n");
-        }
-        else if (record_layer_header->Version.minor == 0x03)
-        {
+            break;
+        case 0x03:
             fprintf(output, "TLS v1.2\n");
-        }
-        else
-        {
+            break;    
+        default:
             fprintf(output, "Unknown Version\n");
+            break;
         }
     }
     else

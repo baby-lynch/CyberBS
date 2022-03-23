@@ -62,9 +62,13 @@ struct IPv4_Header
     u_int16_t Flag_Segment;  // Flags+Fragmented Offset
     u_int8_t TTL : 8;        // Time to Live
     u_int8_t Protocol : 8;   // Protocol
-    u_int16_t Checksum;      // Header Checksum
-    u_char Src_IP[4];        // Source IPv4 Address
-    u_char Dst_IP[4];        // Destination IPv4 Address
+    /*
+        TCP = 0x06
+        UDP = 0x11
+    */
+    u_int16_t Checksum; // Header Checksum
+    u_char Src_IP[4];   // Source IPv4 Address
+    u_char Dst_IP[4];   // Destination IPv4 Address
 };
 
 // IPv6 Header

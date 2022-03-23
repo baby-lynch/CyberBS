@@ -3,7 +3,7 @@
 int main(int argc, char *argv[])
 {
     FILE *fp;
-    const char *FILEPATH = "./pcap/baidu/All.pcap";
+    const char *FILEPATH = "./pcap/UDP.pcap";
 
     int pkt_no = 0; // Packet sequence number
     int pkt_offset; // Packet offset
@@ -11,7 +11,8 @@ int main(int argc, char *argv[])
     int DATA_LEN;   // Lenght of payload
     char src_ip[STRSIZE], dst_ip[STRSIZE];
     u_char Payload[BUFSIZE];
-    u_char check_bytes[2]; // check if the packet is TCP or TLS; 0x14<=check_bytes[0]<=0x17, check_bytes[2]=0x03
+    u_char check_bytes[2];    // check if the packet belongs to TLS; 0x14<=check_bytes[0]<=0x17, check_bytes[2]=0x03
+    u_char protocol_above_ip; // determine UDP or TCP protocol
 
     /*--------------------------------------Initialization--------------------------------------*/
     file_header = (struct pcap_file_header *)malloc(sizeof(struct pcap_file_header));
@@ -66,6 +67,7 @@ int main(int argc, char *argv[])
             inet_ntop(AF_INET, (void *)&(ipv4_header->Dst_IP), dst_ip, 16);
             fprintf(output, "|Source IPv4 Address: %s\n", src_ip);
             fprintf(output, "|Destination IPv4 Address: %s\n", dst_ip);
+            protocol_above_ip = ipv4_header->Protocol;
             break;
         case 0x86dd:
             /*-------------IPv6 header-------------*/
@@ -76,16 +78,28 @@ int main(int argc, char *argv[])
             inet_ntop(AF_INET6, (void *)&(ipv6_header->Dst_IP), dst_ip, 46);
             fprintf(output, "|Source IPv6 Address: %s\n", src_ip);
             fprintf(output, "|Destination IPv6 Address: %s\n", dst_ip);
+            protocol_above_ip = ipv6_header->Next_Header;
         default:
             break;
         }
 
-        /*-------------TCP header-------------*/
-        HEADER_LEN += TCP_HEADER_SIZE;
-        memset(tcp_header, 0, TCP_HEADER_SIZE);
-        fread(tcp_header, TCP_HEADER_SIZE, 1, fp);
-        fprintf(output, "|Source Port: %d\n", ntohs(tcp_header->SrcPort));
-        fprintf(output, "|Destination Port: %d\n", ntohs(tcp_header->DstPort));
+        switch (protocol_above_ip)
+        {
+        case 0x06:
+            /*-------------TCP header-------------*/
+            HEADER_LEN += TCP_HEADER_SIZE;
+            memset(tcp_header, 0, TCP_HEADER_SIZE);
+            fread(tcp_header, TCP_HEADER_SIZE, 1, fp);
+            fprintf(output, "|TCP Source Port: %d\n", ntohs(tcp_header->SrcPort));
+            fprintf(output, "|TCP Destination Port: %d\n", ntohs(tcp_header->DstPort));
+            break;
+        case 0x11:
+            fprintf(output, "|Packet Type: UDP\n\n");
+            continue;    // ignore UDP packet
+            break;
+        default:
+            break;
+        }
 
         /*-------------Payload-------------*/
         DATA_LEN = pkt_header->caplen - HEADER_LEN;

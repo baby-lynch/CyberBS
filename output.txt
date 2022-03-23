@@ -1,231 +1,234 @@
  _______________P A C K E T 1_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40614
-|Destination Port: 443
+|Destination IPv4 Address: 114.250.63.33
+|TCP Source Port: 58140
+|TCP Destination Port: 443
 |Payload Size: 0 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 2_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40616
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
+|Destination IPv4 Address: 192.168.40.2
+|Packet Type: UDP
 
  _______________P A C K E T 3_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40618
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
+|Source IPv4 Address: 192.168.40.2
+|Destination IPv4 Address: 192.168.40.135
+|Packet Type: UDP
 
  _______________P A C K E T 4_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40638
-|Destination Port: 443
-|Payload Size: 0 bytes
+|Destination IPv4 Address: 114.250.66.33
+|TCP Source Port: 33556
+|TCP Destination Port: 443
+|Payload Size: 20 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 5_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40610
-|Destination Port: 443
-|Payload Size: 0 bytes
+|Source IPv4 Address: 114.250.66.33
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 33556
+|Payload Size: 6 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 6_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40678
-|Destination Port: 443
-|Payload Size: 20 bytes
+|Destination IPv4 Address: 114.250.66.33
+|TCP Source Port: 33556
+|TCP Destination Port: 443
+|Payload Size: 0 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 7_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40680
-|Destination Port: 443
-|Payload Size: 20 bytes
-|Packet Type: TCP
+|Destination IPv4 Address: 114.250.66.33
+|TCP Source Port: 33556
+|TCP Destination Port: 443
+|Payload Size: 601 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Handshake-Client Hello
+|Random: 831d82dbcff2828b340274649b7adb809cfe258b05a046858388ac694e2722ef
+|Session ID: 66fe5dc0b85be530252b6c57fd164ce6159d5102aa917f7ca01bdd6efc12eef0
+|Cipher Suite: { 0xeaea 0x1301 0x1302 0x1303 0xc02b 0xc02f 0xc02c 0xc030 0xcca9 0xcca8 0xc013 0xc014 0x9c 0x9d 0x2f 0x35 }
+|Server Name: www.google-analytics.com
+|Version: TLS v1.0
+
 
  _______________P A C K E T 8_______________
-|Source IPv4 Address: 110.242.68.4
+|Source IPv4 Address: 114.250.66.33
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40680
+|TCP Source Port: 443
+|TCP Destination Port: 33556
 |Payload Size: 6 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 9_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40680
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 10_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40680
-|Destination Port: 443
-|Payload Size: 517 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Handshake-Client Hello
-|Random: 94449b1aef2a5ef99d3493fddebfa04b9cb0a8d41b257b33f745585e9229b1f6
-|Session ID: 98709a78019c1cb0496e1922c053e679336f61db52c84af4b4b3ba73e7e6a292
-|Cipher Suite: { 0xeaea 0x1301 0x1302 0x1303 0xc02b 0xc02f 0xc02c 0xc030 0xcca9 0xcca8 0xc013 0xc014 0x9c 0x9d 0x2f 0x35 }
-|Server Name: www.baidu.com
-|Version: TLS v1.0
-
-
- _______________P A C K E T 11_______________
-|Source IPv4 Address: 110.242.68.4
+|Source IPv4 Address: 114.250.66.33
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40680
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 12_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40678
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 13_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40678
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 14_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40678
-|Destination Port: 443
-|Payload Size: 517 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Handshake-Client Hello
-|Random: 10ef129831b1e26b28861d2cfdce9b4fe60047e8baef30932f8e41e2f9ec1bee
-|Session ID: 6253f7e6809d09a5553ce70605cd7b3f988660d079c75a4b2f922d3134725c99
-|Cipher Suite: { 0xbaba 0x1301 0x1302 0x1303 0xc02b 0xc02f 0xc02c 0xc030 0xcca9 0xcca8 0xc013 0xc014 0x9c 0x9d 0x2f 0x35 }
-|Server Name: www.baidu.com
-|Version: TLS v1.0
-
-
- _______________P A C K E T 15_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40678
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 16_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40680
-|Payload Size: 158 bytes
+|TCP Source Port: 443
+|TCP Destination Port: 33556
+|Payload Size: 212 bytes
 |Packet Type: TLS
 ---------------------------------------------
 |Content Type: Handshake-Server Hello
-|Random: 6239da43be6624a632fb9c98b8dde4d6a7be7cb5ad8ba9b5177514a01cf61fb6
-|Session ID: 98709a78019c1cb0496e1922c053e679336f61db52c84af4b4b3ba73e7e6a292
-|Cipher Suite: { 0xc02f }
+|Random: 93ed982a9dd14a9195f97e8e04026fa260cf7e5ae317726837601015b1cb0642
+|Session ID: 66fe5dc0b85be530252b6c57fd164ce6159d5102aa917f7ca01bdd6efc12eef0
+|Cipher Suite: { 0x1301 }
 |Version: TLS v1.2
 
 
- _______________P A C K E T 17_______________
+ _______________P A C K E T 10_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40680
-|Destination Port: 443
+|Destination IPv4 Address: 114.250.66.33
+|TCP Source Port: 33556
+|TCP Destination Port: 443
 |Payload Size: 0 bytes
 |Packet Type: TCP
 
- _______________P A C K E T 18_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40678
-|Payload Size: 158 bytes
+ _______________P A C K E T 11_______________
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 114.250.66.33
+|TCP Source Port: 33556
+|TCP Destination Port: 443
+|Payload Size: 64 bytes
 |Packet Type: TLS
 ---------------------------------------------
-|Content Type: Handshake-Server Hello
-|Random: 6239da43be66e9d6b24fe9826089bc8a53286325947d99c77c08b6d2b002decb
-|Session ID: 6253f7e6809d09a5553ce70605cd7b3f988660d079c75a4b2f922d3134725c99
-|Cipher Suite: { 0xc02f }
+|Content Type: Changer Cipher Spec
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 12_______________
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 114.250.66.33
+|TCP Source Port: 33556
+|TCP Destination Port: 443
+|Payload Size: 92 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 13_______________
+|Source IPv4 Address: 114.250.66.33
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 33556
+|Payload Size: 6 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 14_______________
+|Source IPv4 Address: 114.250.66.33
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 33556
+|Payload Size: 6 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 15_______________
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 114.250.66.33
+|TCP Source Port: 33556
+|TCP Destination Port: 443
+|Payload Size: 678 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 16_______________
+|Source IPv4 Address: 114.250.66.33
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 33556
+|Payload Size: 6 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 17_______________
+|Source IPv4 Address: 114.250.66.33
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 33556
+|Payload Size: 608 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 18_______________
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 114.250.66.33
+|TCP Source Port: 33556
+|TCP Destination Port: 443
+|Payload Size: 31 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
 |Version: TLS v1.2
 
 
  _______________P A C K E T 19_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40678
-|Destination Port: 443
-|Payload Size: 0 bytes
+|Source IPv4 Address: 114.250.66.33
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 33556
+|Payload Size: 6 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 20_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40680
-|Destination Port: 443
-|Payload Size: 51 bytes
+|Source IPv4 Address: 114.250.66.33
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 33556
+|Payload Size: 31 bytes
 |Packet Type: TLS
 ---------------------------------------------
-|Content Type: Changer Cipher Spec
+|Content Type: Application Data
 |Version: TLS v1.2
 
 
  _______________P A C K E T 21_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40678
-|Destination Port: 443
-|Payload Size: 51 bytes
+|Source IPv4 Address: 114.250.66.33
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 33556
+|Payload Size: 428 bytes
 |Packet Type: TLS
 ---------------------------------------------
-|Content Type: Changer Cipher Spec
+|Content Type: Application Data
 |Version: TLS v1.2
 
 
  _______________P A C K E T 22_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40680
-|Payload Size: 6 bytes
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 114.250.66.33
+|TCP Source Port: 33556
+|TCP Destination Port: 443
+|Payload Size: 0 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 23_______________
-|Source IPv4 Address: 110.242.68.4
+|Source IPv4 Address: 114.250.66.33
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40678
-|Payload Size: 6 bytes
-|Packet Type: TCP
+|TCP Source Port: 443
+|TCP Destination Port: 33556
+|Payload Size: 103 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
 
  _______________P A C K E T 24_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40680
-|Destination Port: 443
-|Payload Size: 1836 bytes
+|Destination IPv4 Address: 114.250.66.33
+|TCP Source Port: 33556
+|TCP Destination Port: 443
+|Payload Size: 39 bytes
 |Packet Type: TLS
 ---------------------------------------------
 |Content Type: Application Data
@@ -233,1068 +236,983 @@
 
 
  _______________P A C K E T 25_______________
-|Source IPv4 Address: 110.242.68.4
+|Source IPv4 Address: 114.250.66.33
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40680
+|TCP Source Port: 443
+|TCP Destination Port: 33556
 |Payload Size: 6 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 26_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40680
-|Payload Size: 6 bytes
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 36.156.112.250
+|TCP Source Port: 48362
+|TCP Destination Port: 27443
+|Payload Size: 0 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 27_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40680
-|Payload Size: 3595 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 36.156.112.250
+|TCP Source Port: 48364
+|TCP Destination Port: 27443
+|Payload Size: 0 bytes
+|Packet Type: TCP
 
  _______________P A C K E T 28_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40680
-|Destination Port: 443
-|Payload Size: 0 bytes
+|Source IPv4 Address: 36.156.112.250
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 27443
+|TCP Destination Port: 48362
+|Payload Size: 6 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 29_______________
-|Source IPv4 Address: 110.242.68.4
+|Source IPv4 Address: 36.156.112.250
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40680
-|Payload Size: 2880 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
+|TCP Source Port: 27443
+|TCP Destination Port: 48364
+|Payload Size: 6 bytes
+|Packet Type: TCP
 
  _______________P A C K E T 30_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40680
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
+|Destination IPv4 Address: 192.168.40.2
+|Packet Type: UDP
 
  _______________P A C K E T 31_______________
-|Source IPv4 Address: 110.242.68.4
+|Source IPv4 Address: 192.168.40.2
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40680
-|Payload Size: 1833 bytes
-|Packet Type: TCP
+|Packet Type: UDP
 
  _______________P A C K E T 32_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40680
-|Destination Port: 443
-|Payload Size: 0 bytes
+|Destination IPv4 Address: 36.156.112.250
+|TCP Source Port: 48424
+|TCP Destination Port: 27443
+|Payload Size: 20 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 33_______________
-|Source IPv4 Address: 110.242.68.4
+|Source IPv4 Address: 36.156.112.250
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40680
-|Payload Size: 2880 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
+|TCP Source Port: 27443
+|TCP Destination Port: 48424
+|Payload Size: 6 bytes
+|Packet Type: TCP
 
  _______________P A C K E T 34_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40680
-|Destination Port: 443
+|Destination IPv4 Address: 36.156.112.250
+|TCP Source Port: 48424
+|TCP Destination Port: 27443
 |Payload Size: 0 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 35_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40680
-|Payload Size: 1440 bytes
-|Packet Type: TCP
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 36.156.112.250
+|TCP Source Port: 48424
+|TCP Destination Port: 27443
+|Payload Size: 557 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Handshake-Client Hello
+|Random: f0aa8e821610c5f922e863a51f4c7caffa134ba89b19177240cc0a09d86b326
+|Session ID: be2d43311fa4b9f115f2748dc0b95cd9ef48b6eac285c0c14e2aff577638f488
+|Cipher Suite: { 0x5a5a 0x1301 0x1302 0x1303 0xc02b 0xc02f 0xc02c 0xc030 0xcca9 0xcca8 0xc013 0xc014 0x9c 0x9d 0x2f 0x35 }
+|Server Name: img677868273.virginatlanticgroup.com
+|Version: TLS v1.0
+
 
  _______________P A C K E T 36_______________
-|Source IPv4 Address: 110.242.68.4
+|Source IPv4 Address: 36.156.112.250
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40680
-|Payload Size: 1604 bytes
+|TCP Source Port: 27443
+|TCP Destination Port: 48424
+|Payload Size: 6 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 37_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40680
-|Destination Port: 443
-|Payload Size: 0 bytes
+|Destination IPv4 Address: 36.156.112.250
+|TCP Source Port: 48426
+|TCP Destination Port: 27443
+|Payload Size: 20 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 38_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40680
-|Payload Size: 2880 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 36.156.112.250
+|TCP Source Port: 48428
+|TCP Destination Port: 27443
+|Payload Size: 20 bytes
+|Packet Type: TCP
 
  _______________P A C K E T 39_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40680
-|Destination Port: 443
-|Payload Size: 0 bytes
+|Source IPv4 Address: 36.156.112.250
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 27443
+|TCP Destination Port: 48426
+|Payload Size: 6 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 40_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40680
-|Payload Size: 7103 bytes
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 36.156.112.250
+|TCP Source Port: 48426
+|TCP Destination Port: 27443
+|Payload Size: 0 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 41_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40680
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
+|Destination IPv4 Address: 36.156.112.250
+|TCP Source Port: 48426
+|TCP Destination Port: 27443
+|Payload Size: 557 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Handshake-Client Hello
+|Random: 93a6f957ebe75901b1e74b2f8c0ff04f02ef4e1966086d5b8a907a9a4862d82b
+|Session ID: 5baee8adaaf22b064e1a6259608e94b70def8ff68ea79854b106b742cd0662c9
+|Cipher Suite: { 0x8a8a 0x1301 0x1302 0x1303 0xc02b 0xc02f 0xc02c 0xc030 0xcca9 0xcca8 0xc013 0xc014 0x9c 0x9d 0x2f 0x35 }
+|Server Name: img677868273.virginatlanticgroup.com
+|Version: TLS v1.0
+
 
  _______________P A C K E T 42_______________
-|Source IPv4 Address: 110.242.68.4
+|Source IPv4 Address: 36.156.112.250
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40680
-|Payload Size: 2880 bytes
+|TCP Source Port: 27443
+|TCP Destination Port: 48426
+|Payload Size: 6 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 43_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40680
-|Destination Port: 443
-|Payload Size: 0 bytes
+|Source IPv4 Address: 36.156.112.250
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 27443
+|TCP Destination Port: 48428
+|Payload Size: 6 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 44_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40680
-|Payload Size: 2522 bytes
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 36.156.112.250
+|TCP Source Port: 48428
+|TCP Destination Port: 27443
+|Payload Size: 0 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 45_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40680
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 46_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40680
-|Payload Size: 10080 bytes
+|Destination IPv4 Address: 36.156.112.250
+|TCP Source Port: 48428
+|TCP Destination Port: 27443
+|Payload Size: 517 bytes
 |Packet Type: TLS
 ---------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
+|Content Type: Handshake-Client Hello
+|Random: 8bba8b901bc177e70591d5eab7545e8302f52915eb1b8573eb079a0d01d26d43
+|Session ID: 94fce31bc3ef840d9c8c9ea3dd2d4b96cc949c4c20b1077be6d860d5b9728048
+|Cipher Suite: { 0x2a2a 0x1301 0x1302 0x1303 0xc02b 0xc02f 0xc02c 0xc030 0xcca9 0xcca8 0xc013 0xc014 0x9c 0x9d 0x2f 0x35 }
+|Server Name: img677868273.virginatlanticgroup.com
+|Version: TLS v1.0
 
+
+ _______________P A C K E T 46_______________
+|Source IPv4 Address: 36.156.112.250
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 27443
+|TCP Destination Port: 48428
+|Payload Size: 6 bytes
+|Packet Type: TCP
 
  _______________P A C K E T 47_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40680
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
+|Destination IPv4 Address: 192.168.40.2
+|Packet Type: UDP
 
  _______________P A C K E T 48_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40680
-|Payload Size: 1440 bytes
-|Packet Type: TCP
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 192.168.40.2
+|Packet Type: UDP
 
  _______________P A C K E T 49_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40680
-|Payload Size: 7200 bytes
-|Packet Type: TCP
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 192.168.40.2
+|Packet Type: UDP
 
  _______________P A C K E T 50_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40680
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
+|Source IPv4 Address: 192.168.40.2
+|Destination IPv4 Address: 192.168.40.135
+|Packet Type: UDP
 
  _______________P A C K E T 51_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40680
-|Payload Size: 1440 bytes
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 110.242.68.3
+|TCP Source Port: 59444
+|TCP Destination Port: 443
+|Payload Size: 20 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 52_______________
-|Source IPv4 Address: 110.242.68.4
+|Source IPv4 Address: 192.168.40.2
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40680
-|Payload Size: 5760 bytes
-|Packet Type: TCP
+|Packet Type: UDP
 
  _______________P A C K E T 53_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40680
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
+|Source IPv4 Address: 192.168.40.2
+|Destination IPv4 Address: 192.168.40.135
+|Packet Type: UDP
 
  _______________P A C K E T 54_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40680
-|Payload Size: 4320 bytes
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 110.242.68.3
+|TCP Source Port: 59446
+|TCP Destination Port: 443
+|Payload Size: 20 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 55_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40680
-|Destination Port: 443
-|Payload Size: 0 bytes
+|Destination IPv4 Address: 61.156.44.35
+|TCP Source Port: 59384
+|TCP Destination Port: 443
+|Payload Size: 20 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 56_______________
-|Source IPv4 Address: 110.242.68.4
+|Source IPv4 Address: 110.242.68.3
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40680
-|Payload Size: 1440 bytes
+|TCP Source Port: 443
+|TCP Destination Port: 59444
+|Payload Size: 6 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 57_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40680
-|Payload Size: 4320 bytes
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 110.242.68.3
+|TCP Source Port: 59444
+|TCP Destination Port: 443
+|Payload Size: 0 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 58_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40680
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
+|Destination IPv4 Address: 110.242.68.3
+|TCP Source Port: 59444
+|TCP Destination Port: 443
+|Payload Size: 517 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Handshake-Client Hello
+|Random: 5c83309c72d85b693c2d86aa6fe2a9390de1955df75725ced49ad98940310dbe
+|Session ID: 865d629bfa6767022ee76a34d562d165348bb094a17158c213f632a182b429a3
+|Cipher Suite: { 0xeaea 0x1301 0x1302 0x1303 0xc02b 0xc02f 0xc02c 0xc030 0xcca9 0xcca8 0xc013 0xc014 0x9c 0x9d 0x2f 0x35 }
+|Server Name: www.baidu.com
+|Version: TLS v1.0
+
 
  _______________P A C K E T 59_______________
-|Source IPv4 Address: 110.242.68.4
+|Source IPv4 Address: 110.242.68.3
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40680
-|Payload Size: 8640 bytes
+|TCP Source Port: 443
+|TCP Destination Port: 59444
+|Payload Size: 6 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 60_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40680
-|Destination Port: 443
-|Payload Size: 0 bytes
+|Source IPv4 Address: 110.242.68.3
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 59446
+|Payload Size: 6 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 61_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40680
-|Payload Size: 4320 bytes
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 110.242.68.3
+|TCP Source Port: 59446
+|TCP Destination Port: 443
+|Payload Size: 0 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 62_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40680
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
+|Destination IPv4 Address: 110.242.68.3
+|TCP Source Port: 59446
+|TCP Destination Port: 443
+|Payload Size: 517 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Handshake-Client Hello
+|Random: df8c0f53bac322500f7d1fed00f8bc269731bd4f51f24b76f81b315b15576581
+|Session ID: 49c167fcec5ec95067d42767ab6aa2ea75f55909c529d882b3ad8719315396b2
+|Cipher Suite: { 0xfafa 0x1301 0x1302 0x1303 0xc02b 0xc02f 0xc02c 0xc030 0xcca9 0xcca8 0xc013 0xc014 0x9c 0x9d 0x2f 0x35 }
+|Server Name: www.baidu.com
+|Version: TLS v1.0
+
 
  _______________P A C K E T 63_______________
-|Source IPv4 Address: 110.242.68.4
+|Source IPv4 Address: 110.242.68.3
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40680
-|Payload Size: 2880 bytes
+|TCP Source Port: 443
+|TCP Destination Port: 59446
+|Payload Size: 6 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 64_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40680
-|Destination Port: 443
-|Payload Size: 0 bytes
+|Source IPv4 Address: 61.156.44.35
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 59384
+|Payload Size: 6 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 65_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40680
-|Payload Size: 1440 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 66_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40680
-|Payload Size: 2880 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 67_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40680
-|Destination Port: 443
+|Destination IPv4 Address: 61.156.44.35
+|TCP Source Port: 59384
+|TCP Destination Port: 443
 |Payload Size: 0 bytes
 |Packet Type: TCP
 
- _______________P A C K E T 68_______________
-|Source IPv4 Address: 110.242.68.4
+ _______________P A C K E T 66_______________
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 61.156.44.35
+|TCP Source Port: 59384
+|TCP Destination Port: 443
+|Payload Size: 617 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Handshake-Client Hello
+|Random: de29fa7183868c3d4ae4cbdf0790a3864aa1fcafbc16093878c12fc991d6d76f
+|Session ID: a024450bba1a27a34ed695ec0d6c61e0adfda5a117ffc97f6f4f056d776a7b18
+|Cipher Suite: { 0x1a1a 0x1301 0x1302 0x1303 0xc02b 0xc02f 0xc02c 0xc030 0xcca9 0xcca8 0xc013 0xc014 0x9c 0x9d 0x2f 0x35 }
+|Server Name: pss.bdstatic.com
+|Version: TLS v1.0
+
+
+ _______________P A C K E T 67_______________
+|Source IPv4 Address: 61.156.44.35
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40680
-|Payload Size: 2898 bytes
+|TCP Source Port: 443
+|TCP Destination Port: 59384
+|Payload Size: 6 bytes
 |Packet Type: TCP
+
+ _______________P A C K E T 68_______________
+|Source IPv4 Address: 110.242.68.3
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 59444
+|Payload Size: 158 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Handshake-Server Hello
+|Random: 623ac48ea0a87d8390f665f70c80753eb09f3358f2626a89527bcc1d611aed0d
+|Session ID: 865d629bfa6767022ee76a34d562d165348bb094a17158c213f632a182b429a3
+|Cipher Suite: { 0xc02f }
+|Version: TLS v1.2
+
 
  _______________P A C K E T 69_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40680
-|Destination Port: 443
+|Destination IPv4 Address: 110.242.68.3
+|TCP Source Port: 59444
+|TCP Destination Port: 443
 |Payload Size: 0 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 70_______________
 |Source IPv4 Address: 192.168.40.135
 |Destination IPv4 Address: 110.242.68.3
-|Source Port: 54964
-|Destination Port: 443
-|Payload Size: 20 bytes
-|Packet Type: TCP
+|TCP Source Port: 59444
+|TCP Destination Port: 443
+|Payload Size: 51 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Changer Cipher Spec
+|Version: TLS v1.2
+
 
  _______________P A C K E T 71_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.3
-|Source Port: 54966
-|Destination Port: 443
-|Payload Size: 20 bytes
+|Source IPv4 Address: 110.242.68.3
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 59444
+|Payload Size: 6 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 72_______________
 |Source IPv4 Address: 192.168.40.135
 |Destination IPv4 Address: 110.242.68.3
-|Source Port: 54968
-|Destination Port: 443
-|Payload Size: 20 bytes
-|Packet Type: TCP
+|TCP Source Port: 59444
+|TCP Destination Port: 443
+|Payload Size: 1481 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
 
  _______________P A C K E T 73_______________
 |Source IPv4 Address: 110.242.68.3
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 54964
+|TCP Source Port: 443
+|TCP Destination Port: 59444
 |Payload Size: 6 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 74_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.3
-|Source Port: 54964
-|Destination Port: 443
-|Payload Size: 0 bytes
+|Source IPv4 Address: 110.242.68.3
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 59444
+|Payload Size: 6 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 75_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.3
-|Source Port: 54964
-|Destination Port: 443
-|Payload Size: 517 bytes
+|Source IPv4 Address: 110.242.68.3
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 59446
+|Payload Size: 158 bytes
 |Packet Type: TLS
 ---------------------------------------------
-|Content Type: Handshake-Client Hello
-|Random: b25077398f604e09c506e4bd114f7d0cd4508d10ef0f3aa3c84fc9c6e66f2e1b
-|Session ID: 802a421e4ec974a4784b65bb7dbd5167975a15dd600b27c050ab250ff3c65163
-|Cipher Suite: { 0xeaea 0x1301 0x1302 0x1303 0xc02b 0xc02f 0xc02c 0xc030 0xcca9 0xcca8 0xc013 0xc014 0x9c 0x9d 0x2f 0x35 }
-|Server Name: sp1.baidu.com
-|Version: TLS v1.0
+|Content Type: Handshake-Server Hello
+|Random: 623ac48ea0a89cdbc37d4f4fef976d56f134dde16c36b3747c7633418c0ae399
+|Session ID: 49c167fcec5ec95067d42767ab6aa2ea75f55909c529d882b3ad8719315396b2
+|Cipher Suite: { 0xc02f }
+|Version: TLS v1.2
 
 
  _______________P A C K E T 76_______________
-|Source IPv4 Address: 110.242.68.3
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 54964
-|Payload Size: 6 bytes
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 110.242.68.3
+|TCP Source Port: 59446
+|TCP Destination Port: 443
+|Payload Size: 0 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 77_______________
-|Source IPv4 Address: 110.242.68.3
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 54966
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 78_______________
 |Source IPv4 Address: 192.168.40.135
 |Destination IPv4 Address: 110.242.68.3
-|Source Port: 54966
-|Destination Port: 443
-|Payload Size: 0 bytes
+|TCP Source Port: 59446
+|TCP Destination Port: 443
+|Payload Size: 51 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Changer Cipher Spec
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 78_______________
+|Source IPv4 Address: 110.242.68.3
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 59446
+|Payload Size: 6 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 79_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.3
-|Source Port: 54966
-|Destination Port: 443
-|Payload Size: 517 bytes
+|Source IPv4 Address: 61.156.44.35
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 59384
+|Payload Size: 254 bytes
 |Packet Type: TLS
 ---------------------------------------------
-|Content Type: Handshake-Client Hello
-|Random: e24ee6f237fa0aa2ad7e90b881d768da5429dc1102e0a7d29357f0f7b9e1d885
-|Session ID: 45d6eb612403fcca067457293de6b24cb8bd7dacab1f84173cb4145380d815e7
-|Cipher Suite: { 0xcaca 0x1301 0x1302 0x1303 0xc02b 0xc02f 0xc02c 0xc030 0xcca9 0xcca8 0xc013 0xc014 0x9c 0x9d 0x2f 0x35 }
-|Server Name: sp1.baidu.com
-|Version: TLS v1.0
+|Content Type: Handshake-Server Hello
+|Random: a710c91ee17faf9c480655091c312a5f13e9b66053fdfced52ad14f644f5cabf
+|Session ID: a024450bba1a27a34ed695ec0d6c61e0adfda5a117ffc97f6f4f056d776a7b18
+|Cipher Suite: { 0x1302 }
+|Version: TLS v1.2
 
 
  _______________P A C K E T 80_______________
-|Source IPv4 Address: 110.242.68.3
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 54966
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 81_______________
-|Source IPv4 Address: 110.242.68.3
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 54968
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 82_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.3
-|Source Port: 54968
-|Destination Port: 443
+|Destination IPv4 Address: 61.156.44.35
+|TCP Source Port: 59384
+|TCP Destination Port: 443
 |Payload Size: 0 bytes
 |Packet Type: TCP
 
- _______________P A C K E T 83_______________
+ _______________P A C K E T 81_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.3
-|Source Port: 54968
-|Destination Port: 443
-|Payload Size: 517 bytes
+|Destination IPv4 Address: 61.156.44.35
+|TCP Source Port: 59384
+|TCP Destination Port: 443
+|Payload Size: 80 bytes
 |Packet Type: TLS
 ---------------------------------------------
-|Content Type: Handshake-Client Hello
-|Random: a5e0e2310349ae88c8f59c8cdad32498068a648c41c527d175ee069741e35caa
-|Session ID: 12a366213308f7c697d0eada5861ddf502358c7cffe74139689005dc2717aeed
-|Cipher Suite: { 0xcaca 0x1301 0x1302 0x1303 0xc02b 0xc02f 0xc02c 0xc030 0xcca9 0xcca8 0xc013 0xc014 0x9c 0x9d 0x2f 0x35 }
-|Server Name: sp2.baidu.com
-|Version: TLS v1.0
+|Content Type: Changer Cipher Spec
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 82_______________
+|Source IPv4 Address: 61.156.44.35
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 59384
+|Payload Size: 6 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 83_______________
+|Source IPv4 Address: 110.242.68.3
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 59444
+|Payload Size: 1208 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
 
 
  _______________P A C K E T 84_______________
 |Source IPv4 Address: 110.242.68.3
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 54968
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 85_______________
-|Source IPv4 Address: 110.242.68.3
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 54964
-|Payload Size: 158 bytes
+|TCP Source Port: 443
+|TCP Destination Port: 59444
+|Payload Size: 5855 bytes
 |Packet Type: TLS
 ---------------------------------------------
-|Content Type: Handshake-Server Hello
-|Random: 6239da44be618d2ebeff67de4956d173c6667bd6ff2ef52f1308a2f1bcfdb9af
-|Session ID: 802a421e4ec974a4784b65bb7dbd5167975a15dd600b27c050ab250ff3c65163
-|Cipher Suite: { 0xc02f }
+|Content Type: Application Data
 |Version: TLS v1.2
 
 
- _______________P A C K E T 86_______________
+ _______________P A C K E T 85_______________
 |Source IPv4 Address: 192.168.40.135
 |Destination IPv4 Address: 110.242.68.3
-|Source Port: 54964
-|Destination Port: 443
+|TCP Source Port: 59444
+|TCP Destination Port: 443
 |Payload Size: 0 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 86_______________
+|Source IPv4 Address: 110.242.68.3
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 59444
+|Payload Size: 14272 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 87_______________
 |Source IPv4 Address: 192.168.40.135
 |Destination IPv4 Address: 110.242.68.3
-|Source Port: 54964
-|Destination Port: 443
-|Payload Size: 51 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Changer Cipher Spec
-|Version: TLS v1.2
-
+|TCP Source Port: 59444
+|TCP Destination Port: 443
+|Payload Size: 0 bytes
+|Packet Type: TCP
 
  _______________P A C K E T 88_______________
 |Source IPv4 Address: 110.242.68.3
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 54964
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 89_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.3
-|Source Port: 54964
-|Destination Port: 443
-|Payload Size: 1869 bytes
+|TCP Source Port: 443
+|TCP Destination Port: 59444
+|Payload Size: 8681 bytes
 |Packet Type: TLS
 ---------------------------------------------
 |Content Type: Application Data
 |Version: TLS v1.2
 
 
- _______________P A C K E T 90_______________
-|Source IPv4 Address: 110.242.68.3
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 54964
-|Payload Size: 6 bytes
+ _______________P A C K E T 89_______________
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 110.242.68.3
+|TCP Source Port: 59444
+|TCP Destination Port: 443
+|Payload Size: 0 bytes
 |Packet Type: TCP
+
+ _______________P A C K E T 90_______________
+|Source IPv4 Address: 61.156.44.35
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 59384
+|Payload Size: 62 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
 
  _______________P A C K E T 91_______________
 |Source IPv4 Address: 110.242.68.3
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 54964
-|Payload Size: 6 bytes
+|TCP Source Port: 443
+|TCP Destination Port: 59444
+|Payload Size: 5361 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 92_______________
-|Source IPv4 Address: 110.242.68.3
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 54968
-|Payload Size: 158 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Handshake-Server Hello
-|Random: 6239da44be6136ef1c2a2a9c9da6a57d5fb4af2b9c8e8e9f68d13210d2010fe6
-|Session ID: 12a366213308f7c697d0eada5861ddf502358c7cffe74139689005dc2717aeed
-|Cipher Suite: { 0xc02f }
-|Version: TLS v1.2
-
-
- _______________P A C K E T 93_______________
 |Source IPv4 Address: 192.168.40.135
 |Destination IPv4 Address: 110.242.68.3
-|Source Port: 54968
-|Destination Port: 443
+|TCP Source Port: 59444
+|TCP Destination Port: 443
 |Payload Size: 0 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 93_______________
+|Source IPv4 Address: 110.242.68.3
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 59444
+|Payload Size: 1440 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 94_______________
 |Source IPv4 Address: 110.242.68.3
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 54966
-|Payload Size: 158 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Handshake-Server Hello
-|Random: 6239da44be61b7a5eda2c568adc125b5c21bc019cf2b0071211206bb928ecfdb
-|Session ID: 45d6eb612403fcca067457293de6b24cb8bd7dacab1f84173cb4145380d815e7
-|Cipher Suite: { 0xc02f }
-|Version: TLS v1.2
-
+|TCP Source Port: 443
+|TCP Destination Port: 59444
+|Payload Size: 4320 bytes
+|Packet Type: TCP
 
  _______________P A C K E T 95_______________
 |Source IPv4 Address: 192.168.40.135
 |Destination IPv4 Address: 110.242.68.3
-|Source Port: 54966
-|Destination Port: 443
+|TCP Source Port: 59444
+|TCP Destination Port: 443
 |Payload Size: 0 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 96_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.3
-|Source Port: 54966
-|Destination Port: 443
-|Payload Size: 51 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Changer Cipher Spec
-|Version: TLS v1.2
-
-
- _______________P A C K E T 97_______________
 |Source IPv4 Address: 110.242.68.3
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 54966
-|Payload Size: 6 bytes
+|TCP Source Port: 443
+|TCP Destination Port: 59444
+|Payload Size: 4320 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 97_______________
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 110.242.68.3
+|TCP Source Port: 59444
+|TCP Destination Port: 443
+|Payload Size: 0 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 98_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.3
-|Source Port: 54966
-|Destination Port: 443
-|Payload Size: 1870 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 99_______________
 |Source IPv4 Address: 110.242.68.3
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 54966
-|Payload Size: 6 bytes
+|TCP Source Port: 443
+|TCP Destination Port: 59444
+|Payload Size: 5760 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 99_______________
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 110.242.68.3
+|TCP Source Port: 59444
+|TCP Destination Port: 443
+|Payload Size: 0 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 100_______________
 |Source IPv4 Address: 110.242.68.3
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 54966
-|Payload Size: 6 bytes
+|TCP Source Port: 443
+|TCP Destination Port: 59444
+|Payload Size: 5760 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 101_______________
 |Source IPv4 Address: 192.168.40.135
 |Destination IPv4 Address: 110.242.68.3
-|Source Port: 54968
-|Destination Port: 443
-|Payload Size: 51 bytes
+|TCP Source Port: 59444
+|TCP Destination Port: 443
+|Payload Size: 0 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 102_______________
+|Source IPv4 Address: 110.242.68.3
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 59444
+|Payload Size: 2880 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 103_______________
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 110.242.68.3
+|TCP Source Port: 59444
+|TCP Destination Port: 443
+|Payload Size: 0 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 104_______________
+|Source IPv4 Address: 110.242.68.3
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 59444
+|Payload Size: 2880 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 105_______________
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 110.242.68.3
+|TCP Source Port: 59444
+|TCP Destination Port: 443
+|Payload Size: 0 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 106_______________
+|Source IPv4 Address: 110.242.68.3
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 59444
+|Payload Size: 1440 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 107_______________
+|Source IPv4 Address: 110.242.68.3
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 59444
+|Payload Size: 1440 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 108_______________
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 110.242.68.3
+|TCP Source Port: 59444
+|TCP Destination Port: 443
+|Payload Size: 0 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 109_______________
+|Source IPv4 Address: 110.242.68.3
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 59444
+|Payload Size: 11520 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 110_______________
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 110.242.68.3
+|TCP Source Port: 59444
+|TCP Destination Port: 443
+|Payload Size: 0 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 111_______________
+|Source IPv4 Address: 110.242.68.3
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 59444
+|Payload Size: 5760 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 112_______________
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 110.242.68.3
+|TCP Source Port: 59444
+|TCP Destination Port: 443
+|Payload Size: 0 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 113_______________
+|Source IPv4 Address: 110.242.68.3
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 59444
+|Payload Size: 5890 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 114_______________
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 110.242.68.3
+|TCP Source Port: 59444
+|TCP Destination Port: 443
+|Payload Size: 0 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 115_______________
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 61.156.44.35
+|TCP Source Port: 59384
+|TCP Destination Port: 443
+|Payload Size: 0 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 116_______________
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 192.168.40.2
+|Packet Type: UDP
+
+ _______________P A C K E T 117_______________
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 192.168.40.2
+|Packet Type: UDP
+
+ _______________P A C K E T 118_______________
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 192.168.40.2
+|Packet Type: UDP
+
+ _______________P A C K E T 119_______________
+|Source IPv4 Address: 192.168.40.2
+|Destination IPv4 Address: 192.168.40.135
+|Packet Type: UDP
+
+ _______________P A C K E T 120_______________
+|Source IPv4 Address: 192.168.40.2
+|Destination IPv4 Address: 192.168.40.135
+|Packet Type: UDP
+
+ _______________P A C K E T 121_______________
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 192.168.40.2
+|Packet Type: UDP
+
+ _______________P A C K E T 122_______________
+|Source IPv4 Address: 192.168.40.2
+|Destination IPv4 Address: 192.168.40.135
+|Packet Type: UDP
+
+ _______________P A C K E T 123_______________
+|Source IPv4 Address: 192.168.40.2
+|Destination IPv4 Address: 192.168.40.135
+|Packet Type: UDP
+
+ _______________P A C K E T 124_______________
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 108.177.97.188
+|TCP Source Port: 48922
+|TCP Destination Port: 443
+|Payload Size: 0 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 125_______________
+|Source IPv4 Address: 108.177.97.188
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 48922
+|Payload Size: 6 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 126_______________
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 192.168.40.2
+|Packet Type: UDP
+
+ _______________P A C K E T 127_______________
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 192.168.40.2
+|Packet Type: UDP
+
+ _______________P A C K E T 128_______________
+|Source IPv4 Address: 192.168.40.2
+|Destination IPv4 Address: 192.168.40.135
+|Packet Type: UDP
+
+ _______________P A C K E T 129_______________
+|Source IPv4 Address: 192.168.40.2
+|Destination IPv4 Address: 192.168.40.135
+|Packet Type: UDP
+
+ _______________P A C K E T 130_______________
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 123.129.234.38
+|TCP Source Port: 50932
+|TCP Destination Port: 443
+|Payload Size: 20 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 131_______________
+|Source IPv4 Address: 123.129.234.38
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 50932
+|Payload Size: 6 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 132_______________
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 123.129.234.38
+|TCP Source Port: 50932
+|TCP Destination Port: 443
+|Payload Size: 0 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 133_______________
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 123.129.234.38
+|TCP Source Port: 50932
+|TCP Destination Port: 443
+|Payload Size: 639 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Handshake-Client Hello
+|Random: 1eb6b722c3b7d1913826116c76a996105061a3f92f1eb82bbc41672b47515527
+|Session ID: 5a5de35aa939f63298cf658a5bfbbed5149aedf28aa395886657fb54462e3d0c
+|Cipher Suite: { 0xa0a 0x1301 0x1302 0x1303 0xc02b 0xc02f 0xc02c 0xc030 0xcca9 0xcca8 0xc013 0xc014 0x9c 0x9d 0x2f 0x35 }
+|Server Name: hectorstatic.baidu.com
+|Version: TLS v1.0
+
+
+ _______________P A C K E T 134_______________
+|Source IPv4 Address: 123.129.234.38
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 50932
+|Payload Size: 6 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 135_______________
+|Source IPv4 Address: 123.129.234.38
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 50932
+|Payload Size: 260 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Handshake-Server Hello
+|Random: a2aaa897b43b61623b7c9103312aa767d2db15ac5848ff5fa9aae00c670abc0b
+|Session ID: 5a5de35aa939f63298cf658a5bfbbed5149aedf28aa395886657fb54462e3d0c
+|Cipher Suite: { 0x1302 }
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 136_______________
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 123.129.234.38
+|TCP Source Port: 50932
+|TCP Destination Port: 443
+|Payload Size: 0 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 137_______________
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 123.129.234.38
+|TCP Source Port: 50932
+|TCP Destination Port: 443
+|Payload Size: 80 bytes
 |Packet Type: TLS
 ---------------------------------------------
 |Content Type: Changer Cipher Spec
 |Version: TLS v1.2
 
 
- _______________P A C K E T 102_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.3
-|Source Port: 54968
-|Destination Port: 443
-|Payload Size: 2671 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 103_______________
-|Source IPv4 Address: 110.242.68.3
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 54968
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 104_______________
-|Source IPv4 Address: 110.242.68.3
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 54968
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 105_______________
-|Source IPv4 Address: 110.242.68.3
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 54968
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 106_______________
-|Source IPv4 Address: 110.242.68.3
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 54964
-|Payload Size: 549 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 107_______________
-|Source IPv4 Address: 110.242.68.3
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 54966
-|Payload Size: 549 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 108_______________
-|Source IPv4 Address: 110.242.68.3
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 54968
-|Payload Size: 549 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 109_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40680
-|Destination Port: 443
-|Payload Size: 2847 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 110_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40680
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 111_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40680
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 112_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.3
-|Source Port: 54964
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 113_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.3
-|Source Port: 54966
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 114_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40678
-|Destination Port: 443
-|Payload Size: 1038 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 115_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40678
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 116_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.3
-|Source Port: 54968
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 117_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40680
-|Payload Size: 815 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 118_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40678
-|Payload Size: 659 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 119_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40680
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 120_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40678
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 121_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40678
-|Destination Port: 443
-|Payload Size: 2853 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 122_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40678
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 123_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40678
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 124_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40678
-|Payload Size: 815 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 125_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40678
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 126_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.3
-|Source Port: 54966
-|Destination Port: 443
-|Payload Size: 1879 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 127_______________
-|Source IPv4 Address: 110.242.68.3
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 54966
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 128_______________
-|Source IPv4 Address: 110.242.68.3
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 54966
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 129_______________
-|Source IPv4 Address: 110.242.68.3
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 54966
-|Payload Size: 549 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 130_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.3
-|Source Port: 54966
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 131_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40678
-|Destination Port: 443
-|Payload Size: 2187 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 132_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40678
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 133_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40678
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 134_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40680
-|Destination Port: 443
-|Payload Size: 2063 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 135_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40680
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 136_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40680
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 137_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40678
-|Payload Size: 937 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
  _______________P A C K E T 138_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40678
-|Destination Port: 443
-|Payload Size: 0 bytes
+|Source IPv4 Address: 123.129.234.38
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 50932
+|Payload Size: 6 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 139_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40678
-|Destination Port: 443
-|Payload Size: 2262 bytes
+|Destination IPv4 Address: 123.129.234.38
+|TCP Source Port: 50932
+|TCP Destination Port: 443
+|Payload Size: 1328 bytes
 |Packet Type: TLS
 ---------------------------------------------
 |Content Type: Application Data
@@ -1302,141 +1220,228 @@
 
 
  _______________P A C K E T 140_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40708
-|Destination Port: 443
-|Payload Size: 20 bytes
+|Source IPv4 Address: 123.129.234.38
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 50932
+|Payload Size: 6 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 141_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40678
-|Payload Size: 6 bytes
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 110.242.68.4
+|TCP Source Port: 45172
+|TCP Destination Port: 443
+|Payload Size: 20 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 142_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40678
-|Payload Size: 6 bytes
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 110.242.68.4
+|TCP Source Port: 45174
+|TCP Destination Port: 443
+|Payload Size: 20 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 143_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40680
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 144_______________
-|Source IPv4 Address: 110.242.68.4
+|Source IPv4 Address: 123.129.234.38
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40680
-|Payload Size: 783 bytes
+|TCP Source Port: 443
+|TCP Destination Port: 50932
+|Payload Size: 499 bytes
 |Packet Type: TLS
 ---------------------------------------------
 |Content Type: Application Data
 |Version: TLS v1.2
 
 
- _______________P A C K E T 145_______________
+ _______________P A C K E T 144_______________
 |Source IPv4 Address: 192.168.40.135
 |Destination IPv4 Address: 110.242.68.4
-|Source Port: 40680
-|Destination Port: 443
+|TCP Source Port: 45176
+|TCP Destination Port: 443
+|Payload Size: 20 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 145_______________
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 123.129.234.38
+|TCP Source Port: 50932
+|TCP Destination Port: 443
 |Payload Size: 0 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 146_______________
 |Source IPv4 Address: 110.242.68.4
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40680
+|TCP Source Port: 443
+|TCP Destination Port: 45174
 |Payload Size: 6 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 147_______________
 |Source IPv4 Address: 192.168.40.135
 |Destination IPv4 Address: 110.242.68.4
-|Source Port: 40680
-|Destination Port: 443
+|TCP Source Port: 45174
+|TCP Destination Port: 443
 |Payload Size: 0 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 148_______________
 |Source IPv4 Address: 110.242.68.4
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40708
+|TCP Source Port: 443
+|TCP Destination Port: 45172
 |Payload Size: 6 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 149_______________
 |Source IPv4 Address: 192.168.40.135
 |Destination IPv4 Address: 110.242.68.4
-|Source Port: 40708
-|Destination Port: 443
+|TCP Source Port: 45172
+|TCP Destination Port: 443
 |Payload Size: 0 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 150_______________
 |Source IPv4 Address: 192.168.40.135
 |Destination IPv4 Address: 110.242.68.4
-|Source Port: 40708
-|Destination Port: 443
+|TCP Source Port: 45174
+|TCP Destination Port: 443
 |Payload Size: 517 bytes
 |Packet Type: TLS
 ---------------------------------------------
 |Content Type: Handshake-Client Hello
-|Random: fedcc67cf04d23c486141f26a2021f15c3cddd4bc9b190fdb0e03be90a65945e
-|Session ID: 5e2627965536d375f58a7ed886ec7b0612759052c6f3bbefa4eb37db72760893
+|Random: a91f57a55f5b574223288019257fe3c1bed1771853856f607cde7c34f05beab2
+|Session ID: fc03887e8b5d125ec3ff20be4db7b7329d81ad30ba7ddda757a9ab374dd8ba9d
 |Cipher Suite: { 0xaaaa 0x1301 0x1302 0x1303 0xc02b 0xc02f 0xc02c 0xc030 0xcca9 0xcca8 0xc013 0xc014 0x9c 0x9d 0x2f 0x35 }
-|Server Name: www.baidu.com
+|Server Name: sp1.baidu.com
 |Version: TLS v1.0
 
 
  _______________P A C K E T 151_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40708
-|Payload Size: 6 bytes
-|Packet Type: TCP
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 110.242.68.4
+|TCP Source Port: 45172
+|TCP Destination Port: 443
+|Payload Size: 517 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Handshake-Client Hello
+|Random: d6befa54a0890cb984b88196e31de47c51ed1f1733352a46863ffb4e99726e23
+|Session ID: be18d83250f6e2087b6e44df8f1ed3501e08d5691da2dd87131eef5800a3c2e9
+|Cipher Suite: { 0x1a1a 0x1301 0x1302 0x1303 0xc02b 0xc02f 0xc02c 0xc030 0xcca9 0xcca8 0xc013 0xc014 0x9c 0x9d 0x2f 0x35 }
+|Server Name: sp1.baidu.com
+|Version: TLS v1.0
+
 
  _______________P A C K E T 152_______________
 |Source IPv4 Address: 110.242.68.4
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40708
+|TCP Source Port: 443
+|TCP Destination Port: 45174
+|Payload Size: 6 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 153_______________
+|Source IPv4 Address: 110.242.68.4
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 45172
+|Payload Size: 6 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 154_______________
+|Source IPv4 Address: 110.242.68.4
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 45176
+|Payload Size: 6 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 155_______________
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 110.242.68.4
+|TCP Source Port: 45176
+|TCP Destination Port: 443
+|Payload Size: 0 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 156_______________
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 110.242.68.4
+|TCP Source Port: 45176
+|TCP Destination Port: 443
+|Payload Size: 517 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Handshake-Client Hello
+|Random: a2fae398e01cd53d3e25b7f0d2e2573c0861a06e622199403068e6fe465ea068
+|Session ID: ab7567c1e4af860f8f66b9579cb85417acee3e4c71166b017c045c6d273364f1
+|Cipher Suite: { 0xeaea 0x1301 0x1302 0x1303 0xc02b 0xc02f 0xc02c 0xc030 0xcca9 0xcca8 0xc013 0xc014 0x9c 0x9d 0x2f 0x35 }
+|Server Name: sp2.baidu.com
+|Version: TLS v1.0
+
+
+ _______________P A C K E T 157_______________
+|Source IPv4 Address: 110.242.68.4
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 45176
+|Payload Size: 6 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 158_______________
+|Source IPv4 Address: 110.242.68.4
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 45174
 |Payload Size: 158 bytes
 |Packet Type: TLS
 ---------------------------------------------
 |Content Type: Handshake-Server Hello
-|Random: 6239da4bbe6e9d36265d25768082651baa7248fe176b4e116ea6e725771a6c5c
-|Session ID: 5e2627965536d375f58a7ed886ec7b0612759052c6f3bbefa4eb37db72760893
+|Random: 623ac48ea0a81c8c39fd18eb6258c477bee4ac14b686da46eee0b7e12ad08fd9
+|Session ID: fc03887e8b5d125ec3ff20be4db7b7329d81ad30ba7ddda757a9ab374dd8ba9d
 |Cipher Suite: { 0xc02f }
 |Version: TLS v1.2
 
 
- _______________P A C K E T 153_______________
+ _______________P A C K E T 159_______________
 |Source IPv4 Address: 192.168.40.135
 |Destination IPv4 Address: 110.242.68.4
-|Source Port: 40708
-|Destination Port: 443
+|TCP Source Port: 45174
+|TCP Destination Port: 443
 |Payload Size: 0 bytes
 |Packet Type: TCP
 
- _______________P A C K E T 154_______________
+ _______________P A C K E T 160_______________
+|Source IPv4 Address: 110.242.68.4
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 45172
+|Payload Size: 158 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Handshake-Server Hello
+|Random: 623ac48ea0a8fb84533eefe0469988e5df924d608a2c608a39f411327ad83eaf
+|Session ID: be18d83250f6e2087b6e44df8f1ed3501e08d5691da2dd87131eef5800a3c2e9
+|Cipher Suite: { 0xc02f }
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 161_______________
 |Source IPv4 Address: 192.168.40.135
 |Destination IPv4 Address: 110.242.68.4
-|Source Port: 40708
-|Destination Port: 443
+|TCP Source Port: 45172
+|TCP Destination Port: 443
+|Payload Size: 0 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 162_______________
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 110.242.68.4
+|TCP Source Port: 45174
+|TCP Destination Port: 443
 |Payload Size: 51 bytes
 |Packet Type: TLS
 ---------------------------------------------
@@ -1444,116 +1449,40 @@
 |Version: TLS v1.2
 
 
- _______________P A C K E T 155_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40708
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 156_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40708
-|Destination Port: 443
-|Payload Size: 2089 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 157_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40708
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 158_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40708
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 159_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40678
-|Payload Size: 935 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 160_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40678
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 161_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40708
-|Payload Size: 762 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 162_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40708
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
  _______________P A C K E T 163_______________
 |Source IPv4 Address: 192.168.40.135
 |Destination IPv4 Address: 110.242.68.4
-|Source Port: 40708
-|Destination Port: 443
-|Payload Size: 2208 bytes
+|TCP Source Port: 45172
+|TCP Destination Port: 443
+|Payload Size: 51 bytes
 |Packet Type: TLS
 ---------------------------------------------
-|Content Type: Application Data
+|Content Type: Changer Cipher Spec
 |Version: TLS v1.2
 
 
  _______________P A C K E T 164_______________
 |Source IPv4 Address: 110.242.68.4
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40708
+|TCP Source Port: 443
+|TCP Destination Port: 45174
 |Payload Size: 6 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 165_______________
 |Source IPv4 Address: 110.242.68.4
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40708
+|TCP Source Port: 443
+|TCP Destination Port: 45172
 |Payload Size: 6 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 166_______________
 |Source IPv4 Address: 192.168.40.135
 |Destination IPv4 Address: 110.242.68.4
-|Source Port: 40678
-|Destination Port: 443
-|Payload Size: 2098 bytes
+|TCP Source Port: 45174
+|TCP Destination Port: 443
+|Payload Size: 1709 bytes
 |Packet Type: TLS
 ---------------------------------------------
 |Content Type: Application Data
@@ -1563,25 +1492,25 @@
  _______________P A C K E T 167_______________
 |Source IPv4 Address: 110.242.68.4
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40678
+|TCP Source Port: 443
+|TCP Destination Port: 45174
 |Payload Size: 6 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 168_______________
 |Source IPv4 Address: 110.242.68.4
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40678
+|TCP Source Port: 443
+|TCP Destination Port: 45174
 |Payload Size: 6 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 169_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40708
-|Payload Size: 941 bytes
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 110.242.68.4
+|TCP Source Port: 45172
+|TCP Destination Port: 443
+|Payload Size: 1710 bytes
 |Packet Type: TLS
 ---------------------------------------------
 |Content Type: Application Data
@@ -1589,277 +1518,49 @@
 
 
  _______________P A C K E T 170_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40708
-|Destination Port: 443
-|Payload Size: 0 bytes
+|Source IPv4 Address: 110.242.68.4
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 45172
+|Payload Size: 6 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 171_______________
 |Source IPv4 Address: 110.242.68.4
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40678
-|Payload Size: 831 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
+|TCP Source Port: 443
+|TCP Destination Port: 45172
+|Payload Size: 6 bytes
+|Packet Type: TCP
 
  _______________P A C K E T 172_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40678
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 173_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40678
-|Destination Port: 443
-|Payload Size: 2262 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 174_______________
 |Source IPv4 Address: 110.242.68.4
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40678
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 175_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40678
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 176_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40678
-|Payload Size: 937 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 177_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40678
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 178_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40678
-|Destination Port: 443
-|Payload Size: 2271 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 179_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40678
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 180_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40678
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 181_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40708
-|Destination Port: 443
-|Payload Size: 2107 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 182_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40708
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 183_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40708
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 184_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40708
-|Payload Size: 764 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 185_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40708
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 186_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40708
-|Destination Port: 443
-|Payload Size: 2242 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 187_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40708
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 188_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40710
-|Destination Port: 443
-|Payload Size: 20 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 189_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40708
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 190_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40678
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 191_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40678
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 192_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40710
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 193_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40710
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 194_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40710
-|Destination Port: 443
-|Payload Size: 517 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Handshake-Client Hello
-|Random: 2542fe76c9a2bbd2d52df6a7f60a2dbd0f4d0cb10cc7085b6f3c9a99176d9ede
-|Session ID: 8dfd3138e13196ecb1841a4e094e7e72ee92b14d21006f6d9e0eb7530702fea6
-|Cipher Suite: { 0x4a4a 0x1301 0x1302 0x1303 0xc02b 0xc02f 0xc02c 0xc030 0xcca9 0xcca8 0xc013 0xc014 0x9c 0x9d 0x2f 0x35 }
-|Server Name: www.baidu.com
-|Version: TLS v1.0
-
-
- _______________P A C K E T 195_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40710
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 196_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40710
+|TCP Source Port: 443
+|TCP Destination Port: 45176
 |Payload Size: 158 bytes
 |Packet Type: TLS
 ---------------------------------------------
 |Content Type: Handshake-Server Hello
-|Random: 6239da4cbe699c6ce911b76ce3c15199959ace75d452045bb3cd76dc5072b19e
-|Session ID: 8dfd3138e13196ecb1841a4e094e7e72ee92b14d21006f6d9e0eb7530702fea6
+|Random: 623ac48ea0a8458fb6c177e90c38bb5522188d4ab9bdf02f8652c70e78ade928
+|Session ID: ab7567c1e4af860f8f66b9579cb85417acee3e4c71166b017c045c6d273364f1
 |Cipher Suite: { 0xc02f }
 |Version: TLS v1.2
 
 
- _______________P A C K E T 197_______________
+ _______________P A C K E T 173_______________
 |Source IPv4 Address: 192.168.40.135
 |Destination IPv4 Address: 110.242.68.4
-|Source Port: 40710
-|Destination Port: 443
+|TCP Source Port: 45176
+|TCP Destination Port: 443
 |Payload Size: 0 bytes
 |Packet Type: TCP
 
- _______________P A C K E T 198_______________
+ _______________P A C K E T 174_______________
 |Source IPv4 Address: 192.168.40.135
 |Destination IPv4 Address: 110.242.68.4
-|Source Port: 40710
-|Destination Port: 443
+|TCP Source Port: 45176
+|TCP Destination Port: 443
 |Payload Size: 51 bytes
 |Packet Type: TLS
 ---------------------------------------------
@@ -1867,48 +1568,281 @@
 |Version: TLS v1.2
 
 
- _______________P A C K E T 199_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40710
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 200_______________
+ _______________P A C K E T 175_______________
 |Source IPv4 Address: 192.168.40.135
 |Destination IPv4 Address: 110.242.68.4
-|Source Port: 40710
-|Destination Port: 443
-|Payload Size: 2116 bytes
+|TCP Source Port: 45176
+|TCP Destination Port: 443
+|Payload Size: 2483 bytes
 |Packet Type: TLS
 ---------------------------------------------
 |Content Type: Application Data
 |Version: TLS v1.2
 
 
- _______________P A C K E T 201_______________
+ _______________P A C K E T 176_______________
 |Source IPv4 Address: 110.242.68.4
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40710
+|TCP Source Port: 443
+|TCP Destination Port: 45176
 |Payload Size: 6 bytes
 |Packet Type: TCP
 
- _______________P A C K E T 202_______________
+ _______________P A C K E T 177_______________
 |Source IPv4 Address: 110.242.68.4
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40710
+|TCP Source Port: 443
+|TCP Destination Port: 45176
+|Payload Size: 6 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 178_______________
+|Source IPv4 Address: 110.242.68.4
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 45176
+|Payload Size: 6 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 179_______________
+|Source IPv4 Address: 110.242.68.4
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 45172
+|Payload Size: 549 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 180_______________
+|Source IPv4 Address: 110.242.68.4
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 45174
+|Payload Size: 549 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 181_______________
+|Source IPv4 Address: 110.242.68.4
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 45176
+|Payload Size: 549 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 182_______________
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 110.242.68.3
+|TCP Source Port: 59444
+|TCP Destination Port: 443
+|Payload Size: 2439 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 183_______________
+|Source IPv4 Address: 110.242.68.3
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 59444
+|Payload Size: 6 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 184_______________
+|Source IPv4 Address: 110.242.68.3
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 59444
+|Payload Size: 6 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 185_______________
+|Source IPv4 Address: 110.242.68.3
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 59444
+|Payload Size: 811 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 186_______________
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 110.242.68.4
+|TCP Source Port: 45176
+|TCP Destination Port: 443
+|Payload Size: 0 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 187_______________
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 110.242.68.4
+|TCP Source Port: 45174
+|TCP Destination Port: 443
+|Payload Size: 0 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 188_______________
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 110.242.68.4
+|TCP Source Port: 45172
+|TCP Destination Port: 443
+|Payload Size: 0 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 189_______________
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 110.242.68.3
+|TCP Source Port: 59444
+|TCP Destination Port: 443
+|Payload Size: 808 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 190_______________
+|Source IPv4 Address: 110.242.68.3
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 59444
+|Payload Size: 6 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 191_______________
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 192.168.40.2
+|Packet Type: UDP
+
+ _______________P A C K E T 192_______________
+|Source IPv4 Address: 110.242.68.3
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 59444
+|Payload Size: 659 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 193_______________
+|Source IPv4 Address: 192.168.40.2
+|Destination IPv4 Address: 192.168.40.135
+|Packet Type: UDP
+
+ _______________P A C K E T 194_______________
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 111.206.208.245
+|TCP Source Port: 56630
+|TCP Destination Port: 443
+|Payload Size: 20 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 195_______________
+|Source IPv4 Address: 111.206.208.245
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 56630
+|Payload Size: 6 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 196_______________
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 111.206.208.245
+|TCP Source Port: 56630
+|TCP Destination Port: 443
+|Payload Size: 0 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 197_______________
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 111.206.208.245
+|TCP Source Port: 56630
+|TCP Destination Port: 443
+|Payload Size: 517 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Handshake-Client Hello
+|Random: 3ccf0a062d6ebab337bc0d764d08c842ae0027224735d632737637f4b62b7c06
+|Session ID: 21c5ab29a19a1d66b931def02a4775374256d70edc24345e63e46c57d7df40e8
+|Cipher Suite: { 0x2a2a 0x1301 0x1302 0x1303 0xc02b 0xc02f 0xc02c 0xc030 0xcca9 0xcca8 0xc013 0xc014 0x9c 0x9d 0x2f 0x35 }
+|Server Name: passport.baidu.com
+|Version: TLS v1.0
+
+
+ _______________P A C K E T 198_______________
+|Source IPv4 Address: 111.206.208.245
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 56630
+|Payload Size: 6 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 199_______________
+|Source IPv4 Address: 111.206.208.245
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 56630
+|Payload Size: 158 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Handshake-Server Hello
+|Random: 623ac48fa0a905b656ae44b12230a63808ce925b10898a8be4d9959a0adc9c82
+|Session ID: 21c5ab29a19a1d66b931def02a4775374256d70edc24345e63e46c57d7df40e8
+|Cipher Suite: { 0xc02f }
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 200_______________
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 111.206.208.245
+|TCP Source Port: 56630
+|TCP Destination Port: 443
+|Payload Size: 0 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 201_______________
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 111.206.208.245
+|TCP Source Port: 56630
+|TCP Destination Port: 443
+|Payload Size: 51 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Changer Cipher Spec
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 202_______________
+|Source IPv4 Address: 111.206.208.245
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 56630
 |Payload Size: 6 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 203_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40708
-|Payload Size: 944 bytes
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 111.206.208.245
+|TCP Source Port: 56630
+|TCP Destination Port: 443
+|Payload Size: 1324 bytes
 |Packet Type: TLS
 ---------------------------------------------
 |Content Type: Application Data
@@ -1916,59 +1850,52 @@
 
 
  _______________P A C K E T 204_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40708
-|Destination Port: 443
-|Payload Size: 0 bytes
+|Source IPv4 Address: 111.206.208.245
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 56630
+|Payload Size: 6 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 205_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40710
-|Payload Size: 848 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 110.242.68.3
+|TCP Source Port: 59444
+|TCP Destination Port: 443
+|Payload Size: 0 bytes
+|Packet Type: TCP
 
  _______________P A C K E T 206_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40710
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 207_______________
-|Source IPv4 Address: 110.242.68.4
+|Source IPv4 Address: 111.206.208.245
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40678
-|Payload Size: 973 bytes
+|TCP Source Port: 443
+|TCP Destination Port: 56630
+|Payload Size: 2632 bytes
 |Packet Type: TLS
 ---------------------------------------------
 |Content Type: Application Data
 |Version: TLS v1.2
 
 
- _______________P A C K E T 208_______________
+ _______________P A C K E T 207_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40678
-|Destination Port: 443
+|Destination IPv4 Address: 111.206.208.245
+|TCP Source Port: 56630
+|TCP Destination Port: 443
 |Payload Size: 0 bytes
 |Packet Type: TCP
 
+ _______________P A C K E T 208_______________
+|Source IPv4 Address: 192.168.40.1
+|Destination IPv4 Address: 239.255.255.250
+|Packet Type: UDP
+
  _______________P A C K E T 209_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40710
-|Destination Port: 443
-|Payload Size: 2314 bytes
+|Source IPv4 Address: 114.250.65.34
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 34548
+|Payload Size: 73 bytes
 |Packet Type: TLS
 ---------------------------------------------
 |Content Type: Application Data
@@ -1976,151 +1903,151 @@
 
 
  _______________P A C K E T 210_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40710
-|Payload Size: 6 bytes
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 114.250.65.34
+|TCP Source Port: 34548
+|TCP Destination Port: 443
+|Payload Size: 0 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 211_______________
-|Source IPv4 Address: 110.242.68.4
+|Source IPv4 Address: 114.250.65.34
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40710
+|TCP Source Port: 443
+|TCP Destination Port: 34548
 |Payload Size: 6 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 212_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40708
-|Destination Port: 443
-|Payload Size: 2134 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
+|Source IPv4 Address: 114.250.65.34
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 443
+|TCP Destination Port: 34548
+|Payload Size: 6 bytes
+|Packet Type: TCP
 
  _______________P A C K E T 213_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40708
-|Payload Size: 6 bytes
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 114.250.65.34
+|TCP Source Port: 34548
+|TCP Destination Port: 443
+|Payload Size: 0 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 214_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40708
-|Payload Size: 6 bytes
-|Packet Type: TCP
+|Source IPv4 Address: 192.168.40.1
+|Destination IPv4 Address: 239.255.255.250
+|Packet Type: UDP
 
  _______________P A C K E T 215_______________
-|Source IPv4 Address: 110.242.68.4
+|Source IPv4 Address: 36.156.112.250
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40710
-|Payload Size: 952 bytes
+|TCP Source Port: 27443
+|TCP Destination Port: 48424
+|Payload Size: 225 bytes
 |Packet Type: TLS
 ---------------------------------------------
-|Content Type: Application Data
+|Content Type: Handshake-Server Hello
+|Random: b56d10b12b086eafdbce61f723b1da3e3e779e9d477cb1eea18613e5fa6660a8
+|Session ID: be2d43311fa4b9f115f2748dc0b95cd9ef48b6eac285c0c14e2aff577638f488
+|Cipher Suite: { 0x1301 }
 |Version: TLS v1.2
 
 
  _______________P A C K E T 216_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40710
-|Destination Port: 443
+|Destination IPv4 Address: 36.156.112.250
+|TCP Source Port: 48424
+|TCP Destination Port: 27443
 |Payload Size: 0 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 217_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40708
-|Payload Size: 900 bytes
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 36.156.112.250
+|TCP Source Port: 48424
+|TCP Destination Port: 27443
+|Payload Size: 64 bytes
 |Packet Type: TLS
 ---------------------------------------------
-|Content Type: Application Data
+|Content Type: Changer Cipher Spec
 |Version: TLS v1.2
 
 
  _______________P A C K E T 218_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40708
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 219_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40708
-|Destination Port: 443
-|Payload Size: 2251 bytes
+|Destination IPv4 Address: 36.156.112.250
+|TCP Source Port: 48424
+|TCP Destination Port: 27443
+|Payload Size: 236 bytes
 |Packet Type: TLS
 ---------------------------------------------
 |Content Type: Application Data
 |Version: TLS v1.2
 
 
- _______________P A C K E T 220_______________
-|Source IPv4 Address: 110.242.68.4
+ _______________P A C K E T 219_______________
+|Source IPv4 Address: 36.156.112.250
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40708
+|TCP Source Port: 27443
+|TCP Destination Port: 48424
+|Payload Size: 6 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 220_______________
+|Source IPv4 Address: 36.156.112.250
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 27443
+|TCP Destination Port: 48424
 |Payload Size: 6 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 221_______________
-|Source IPv4 Address: 110.242.68.4
+|Source IPv4 Address: 36.156.112.250
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40708
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 222_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40710
-|Destination Port: 443
-|Payload Size: 2143 bytes
+|TCP Source Port: 27443
+|TCP Destination Port: 48424
+|Payload Size: 223 bytes
 |Packet Type: TLS
 ---------------------------------------------
 |Content Type: Application Data
 |Version: TLS v1.2
 
 
- _______________P A C K E T 223_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40710
-|Payload Size: 6 bytes
+ _______________P A C K E T 222_______________
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 36.156.112.250
+|TCP Source Port: 48424
+|TCP Destination Port: 27443
+|Payload Size: 0 bytes
 |Packet Type: TCP
 
- _______________P A C K E T 224_______________
-|Source IPv4 Address: 110.242.68.4
+ _______________P A C K E T 223_______________
+|Source IPv4 Address: 36.156.112.250
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40710
-|Payload Size: 6 bytes
+|TCP Source Port: 27443
+|TCP Destination Port: 48424
+|Payload Size: 61 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 224_______________
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 36.156.112.250
+|TCP Source Port: 48424
+|TCP Destination Port: 27443
+|Payload Size: 0 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 225_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40708
-|Payload Size: 951 bytes
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 36.156.112.250
+|TCP Source Port: 48424
+|TCP Destination Port: 27443
+|Payload Size: 740 bytes
 |Packet Type: TLS
 ---------------------------------------------
 |Content Type: Application Data
@@ -2128,39 +2055,36 @@
 
 
  _______________P A C K E T 226_______________
-|Source IPv4 Address: 110.242.68.4
+|Source IPv4 Address: 36.156.112.250
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40710
-|Payload Size: 780 bytes
+|TCP Source Port: 27443
+|TCP Destination Port: 48424
+|Payload Size: 6 bytes
+|Packet Type: TCP
+
+ _______________P A C K E T 227_______________
+|Source IPv4 Address: 192.168.40.1
+|Destination IPv4 Address: 239.255.255.250
+|Packet Type: UDP
+
+ _______________P A C K E T 228_______________
+|Source IPv4 Address: 36.156.112.250
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 27443
+|TCP Destination Port: 48424
+|Payload Size: 356 bytes
 |Packet Type: TLS
 ---------------------------------------------
 |Content Type: Application Data
 |Version: TLS v1.2
 
 
- _______________P A C K E T 227_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40710
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 228_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40708
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
  _______________P A C K E T 229_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40710
-|Destination Port: 443
-|Payload Size: 2314 bytes
+|Destination IPv4 Address: 36.156.112.250
+|TCP Source Port: 48424
+|TCP Destination Port: 27443
+|Payload Size: 96 bytes
 |Packet Type: TLS
 ---------------------------------------------
 |Content Type: Application Data
@@ -2168,75 +2092,71 @@
 
 
  _______________P A C K E T 230_______________
-|Source IPv4 Address: 110.242.68.4
+|Source IPv4 Address: 36.156.112.250
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40710
+|TCP Source Port: 27443
+|TCP Destination Port: 48424
 |Payload Size: 6 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 231_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40710
-|Payload Size: 6 bytes
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 36.156.112.250
+|TCP Source Port: 48426
+|TCP Destination Port: 27443
+|Payload Size: 0 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 232_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40708
-|Destination Port: 443
-|Payload Size: 2143 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
+|Destination IPv4 Address: 36.156.112.250
+|TCP Source Port: 48428
+|TCP Destination Port: 27443
+|Payload Size: 0 bytes
+|Packet Type: TCP
 
  _______________P A C K E T 233_______________
-|Source IPv4 Address: 110.242.68.4
+|Source IPv4 Address: 36.156.112.250
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40708
+|TCP Source Port: 27443
+|TCP Destination Port: 48426
 |Payload Size: 6 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 234_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40708
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 235_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40710
-|Payload Size: 953 bytes
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 36.156.112.250
+|TCP Source Port: 48424
+|TCP Destination Port: 27443
+|Payload Size: 114 bytes
 |Packet Type: TLS
 ---------------------------------------------
 |Content Type: Application Data
 |Version: TLS v1.2
 
 
+ _______________P A C K E T 235_______________
+|Source IPv4 Address: 36.156.112.250
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 27443
+|TCP Destination Port: 48428
+|Payload Size: 6 bytes
+|Packet Type: TCP
+
  _______________P A C K E T 236_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40710
-|Destination Port: 443
-|Payload Size: 0 bytes
+|Source IPv4 Address: 36.156.112.250
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 27443
+|TCP Destination Port: 48424
+|Payload Size: 6 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 237_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40710
-|Destination Port: 443
-|Payload Size: 2323 bytes
+|Destination IPv4 Address: 36.156.112.250
+|TCP Source Port: 48424
+|TCP Destination Port: 27443
+|Payload Size: 743 bytes
 |Packet Type: TLS
 ---------------------------------------------
 |Content Type: Application Data
@@ -2244,91 +2164,91 @@
 
 
  _______________P A C K E T 238_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40710
-|Payload Size: 6 bytes
-|Packet Type: TCP
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 36.156.112.250
+|TCP Source Port: 48424
+|TCP Destination Port: 27443
+|Payload Size: 180 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
 
  _______________P A C K E T 239_______________
-|Source IPv4 Address: 110.242.68.4
+|Source IPv4 Address: 36.156.112.250
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40710
+|TCP Source Port: 27443
+|TCP Destination Port: 48424
 |Payload Size: 6 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 240_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40712
-|Destination Port: 443
-|Payload Size: 20 bytes
-|Packet Type: TCP
+|Destination IPv4 Address: 36.156.112.250
+|TCP Source Port: 48424
+|TCP Destination Port: 27443
+|Payload Size: 89 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
 
  _______________P A C K E T 241_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40708
-|Destination Port: 443
-|Payload Size: 0 bytes
+|Source IPv4 Address: 36.156.112.250
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 27443
+|TCP Destination Port: 48424
+|Payload Size: 6 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 242_______________
-|Source IPv4 Address: 110.242.68.4
+|Source IPv4 Address: 36.156.112.250
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40708
+|TCP Source Port: 27443
+|TCP Destination Port: 48424
 |Payload Size: 6 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 243_______________
-|Source IPv4 Address: 110.242.68.4
+|Source IPv4 Address: 36.156.112.250
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40712
+|TCP Source Port: 27443
+|TCP Destination Port: 48426
 |Payload Size: 6 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 244_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40712
-|Destination Port: 443
+|Destination IPv4 Address: 36.156.112.250
+|TCP Source Port: 48426
+|TCP Destination Port: 27443
 |Payload Size: 0 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 245_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40712
-|Destination Port: 443
-|Payload Size: 517 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Handshake-Client Hello
-|Random: 27bcc0dcab7485c7d1ebedbc3c0b1f2fbdf5e4fd833154351f26ce565ad799e0
-|Session ID: 6b2bed12ae922fad522aabd598e343d356aec6d28e1744efafa11b2c3daa927a
-|Cipher Suite: { 0x2a2a 0x1301 0x1302 0x1303 0xc02b 0xc02f 0xc02c 0xc030 0xcca9 0xcca8 0xc013 0xc014 0x9c 0x9d 0x2f 0x35 }
-|Server Name: www.baidu.com
-|Version: TLS v1.0
-
-
- _______________P A C K E T 246_______________
-|Source IPv4 Address: 110.242.68.4
+|Source IPv4 Address: 36.156.112.250
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40712
+|TCP Source Port: 27443
+|TCP Destination Port: 48428
 |Payload Size: 6 bytes
 |Packet Type: TCP
 
+ _______________P A C K E T 246_______________
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 36.156.112.250
+|TCP Source Port: 48428
+|TCP Destination Port: 27443
+|Payload Size: 0 bytes
+|Packet Type: TCP
+
  _______________P A C K E T 247_______________
-|Source IPv4 Address: 110.242.68.4
+|Source IPv4 Address: 36.156.112.250
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40708
-|Payload Size: 900 bytes
+|TCP Source Port: 27443
+|TCP Destination Port: 48424
+|Payload Size: 884 bytes
 |Packet Type: TLS
 ---------------------------------------------
 |Content Type: Application Data
@@ -2337,81 +2257,82 @@
 
  _______________P A C K E T 248_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40708
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 249_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40708
-|Payload Size: 31 bytes
+|Destination IPv4 Address: 36.156.112.250
+|TCP Source Port: 48424
+|TCP Destination Port: 27443
+|Payload Size: 53 bytes
 |Packet Type: TLS
 ---------------------------------------------
-|Content Type: Encrypted Alert
+|Content Type: Application Data
 |Version: TLS v1.2
 
 
- _______________P A C K E T 250_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40708
-|Destination Port: 443
-|Payload Size: 0 bytes
+ _______________P A C K E T 249_______________
+|Source IPv4 Address: 36.156.112.250
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 27443
+|TCP Destination Port: 48424
+|Payload Size: 6 bytes
 |Packet Type: TCP
 
- _______________P A C K E T 251_______________
-|Source IPv4 Address: 110.242.68.4
+ _______________P A C K E T 250_______________
+|Source IPv4 Address: 36.156.112.250
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40712
-|Payload Size: 158 bytes
+|TCP Source Port: 27443
+|TCP Destination Port: 48424
+|Payload Size: 53 bytes
 |Packet Type: TLS
 ---------------------------------------------
-|Content Type: Handshake-Server Hello
-|Random: 6239da4dbe68aaa31532723632ba5b0e169d50bfe51dd4b2a2c5a9f476263734
-|Session ID: 6b2bed12ae922fad522aabd598e343d356aec6d28e1744efafa11b2c3daa927a
-|Cipher Suite: { 0xc02f }
+|Content Type: Application Data
+|Version: TLS v1.2
+
+
+ _______________P A C K E T 251_______________
+|Source IPv4 Address: 36.156.112.250
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 27443
+|TCP Destination Port: 48424
+|Payload Size: 814 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
 |Version: TLS v1.2
 
 
  _______________P A C K E T 252_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40712
-|Destination Port: 443
+|Destination IPv4 Address: 36.156.112.250
+|TCP Source Port: 48424
+|TCP Destination Port: 27443
 |Payload Size: 0 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 253_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40712
-|Destination Port: 443
-|Payload Size: 51 bytes
+|Destination IPv4 Address: 36.156.112.250
+|TCP Source Port: 48424
+|TCP Destination Port: 27443
+|Payload Size: 61 bytes
 |Packet Type: TLS
 ---------------------------------------------
-|Content Type: Changer Cipher Spec
+|Content Type: Application Data
 |Version: TLS v1.2
 
 
  _______________P A C K E T 254_______________
-|Source IPv4 Address: 110.242.68.4
+|Source IPv4 Address: 36.156.112.250
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40712
+|TCP Source Port: 27443
+|TCP Destination Port: 48424
 |Payload Size: 6 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 255_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40712
-|Destination Port: 443
-|Payload Size: 2152 bytes
+|Source IPv4 Address: 36.156.112.250
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 27443
+|TCP Destination Port: 48424
+|Payload Size: 381 bytes
 |Packet Type: TLS
 ---------------------------------------------
 |Content Type: Application Data
@@ -2419,804 +2340,58 @@
 
 
  _______________P A C K E T 256_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40712
-|Payload Size: 6 bytes
+|Source IPv4 Address: 192.168.40.135
+|Destination IPv4 Address: 36.156.112.250
+|TCP Source Port: 48424
+|TCP Destination Port: 27443
+|Payload Size: 0 bytes
 |Packet Type: TCP
 
  _______________P A C K E T 257_______________
-|Source IPv4 Address: 110.242.68.4
+|Source IPv4 Address: 36.156.112.250
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40712
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 258_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40712
-|Payload Size: 969 bytes
+|TCP Source Port: 27443
+|TCP Destination Port: 48424
+|Payload Size: 6127 bytes
 |Packet Type: TLS
 ---------------------------------------------
 |Content Type: Application Data
 |Version: TLS v1.2
 
 
- _______________P A C K E T 259_______________
+ _______________P A C K E T 258_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40712
-|Destination Port: 443
+|Destination IPv4 Address: 36.156.112.250
+|TCP Source Port: 48424
+|TCP Destination Port: 27443
 |Payload Size: 0 bytes
 |Packet Type: TCP
+
+ _______________P A C K E T 259_______________
+|Source IPv4 Address: 36.156.112.250
+|Destination IPv4 Address: 192.168.40.135
+|TCP Source Port: 27443
+|TCP Destination Port: 48424
+|Payload Size: 4276 bytes
+|Packet Type: TLS
+---------------------------------------------
+|Content Type: Application Data
+|Version: TLS v1.2
+
 
  _______________P A C K E T 260_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40712
-|Destination Port: 443
-|Payload Size: 2271 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
+|Destination IPv4 Address: 36.156.112.250
+|TCP Source Port: 48424
+|TCP Destination Port: 27443
+|Payload Size: 0 bytes
+|Packet Type: TCP
 
  _______________P A C K E T 261_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40714
-|Destination Port: 443
-|Payload Size: 20 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 262_______________
-|Source IPv4 Address: 110.242.68.4
+|Source IPv4 Address: 36.156.112.250
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40712
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 263_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40712
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 264_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40710
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 265_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40710
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 266_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40714
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 267_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40714
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 268_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40714
-|Destination Port: 443
-|Payload Size: 517 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Handshake-Client Hello
-|Random: 43f31ef37a3e80296def4d8197baec35f4f5c5d50307443ba1541d4a58f0c142
-|Session ID: 329fe356f3bd615db3195b7b6f72d327afad85869562ade1603073ae9afafd42
-|Cipher Suite: { 0x4a4a 0x1301 0x1302 0x1303 0xc02b 0xc02f 0xc02c 0xc030 0xcca9 0xcca8 0xc013 0xc014 0x9c 0x9d 0x2f 0x35 }
-|Server Name: www.baidu.com
-|Version: TLS v1.0
-
-
- _______________P A C K E T 269_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40714
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 270_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40714
-|Payload Size: 158 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Handshake-Server Hello
-|Random: 6239da4dbe68e32678d7ace78d984f75b2e49ccdfd8cae418a3fee9969da7f65
-|Session ID: 329fe356f3bd615db3195b7b6f72d327afad85869562ade1603073ae9afafd42
-|Cipher Suite: { 0xc02f }
-|Version: TLS v1.2
-
-
- _______________P A C K E T 271_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40714
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 272_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40714
-|Destination Port: 443
-|Payload Size: 51 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Changer Cipher Spec
-|Version: TLS v1.2
-
-
- _______________P A C K E T 273_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40714
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 274_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40714
-|Destination Port: 443
-|Payload Size: 2170 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 275_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40714
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 276_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40714
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 277_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40712
-|Payload Size: 966 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 278_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40712
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 279_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40710
-|Payload Size: 2880 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 280_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40710
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 281_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40710
-|Payload Size: 8976 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 282_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40710
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 283_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40710
-|Payload Size: 6635 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 284_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40710
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 285_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40714
-|Payload Size: 905 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 286_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40714
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 287_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40714
-|Destination Port: 443
-|Payload Size: 2334 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 288_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40714
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 289_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40714
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 290_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40712
-|Destination Port: 443
-|Payload Size: 2179 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 291_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40712
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 292_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40712
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 293_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40714
-|Payload Size: 966 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 294_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40714
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 295_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40712
-|Payload Size: 971 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 296_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40712
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 297_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40712
-|Destination Port: 443
-|Payload Size: 2344 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 298_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40712
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 299_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40712
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 300_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40714
-|Destination Port: 443
-|Payload Size: 2188 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 301_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40714
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 302_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40714
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 303_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40714
-|Payload Size: 998 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 304_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40714
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 305_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40714
-|Destination Port: 443
-|Payload Size: 2281 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 306_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40714
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 307_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40714
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 308_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40712
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 309_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40712
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 310_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40716
-|Destination Port: 443
-|Payload Size: 20 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 311_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40716
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 312_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40716
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 313_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40716
-|Destination Port: 443
-|Payload Size: 517 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Handshake-Client Hello
-|Random: e19738920137a4f9c91c1e9e8cd6b29dd91d5da72ea17d3bdb2481aeae7a7f96
-|Session ID: 17d9e5105bedd5462903dfdae9d435788f977344065b3b2545ab92ae4d2349df
-|Cipher Suite: { 0xaaaa 0x1301 0x1302 0x1303 0xc02b 0xc02f 0xc02c 0xc030 0xcca9 0xcca8 0xc013 0xc014 0x9c 0x9d 0x2f 0x35 }
-|Server Name: www.baidu.com
-|Version: TLS v1.0
-
-
- _______________P A C K E T 314_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40716
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 315_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40716
-|Payload Size: 158 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Handshake-Server Hello
-|Random: 6239da4ebe6b741948dfbbc01c1b5dd6225c036e0fc49998e9db61356734a3e7
-|Session ID: 17d9e5105bedd5462903dfdae9d435788f977344065b3b2545ab92ae4d2349df
-|Cipher Suite: { 0xc02f }
-|Version: TLS v1.2
-
-
- _______________P A C K E T 316_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40716
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 317_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40716
-|Destination Port: 443
-|Payload Size: 51 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Changer Cipher Spec
-|Version: TLS v1.2
-
-
- _______________P A C K E T 318_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40716
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 319_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40716
-|Destination Port: 443
-|Payload Size: 2197 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 320_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40716
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 321_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40716
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 322_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40714
-|Payload Size: 966 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 323_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40714
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 324_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40714
-|Destination Port: 443
-|Payload Size: 2344 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 325_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40714
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 326_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40714
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 327_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40716
-|Payload Size: 851 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 328_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40716
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 329_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40712
-|Payload Size: 25143 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 330_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40712
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 331_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40712
-|Payload Size: 1823 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 332_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40712
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 333_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40714
-|Payload Size: 4125 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 334_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40714
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 335_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40714
-|Payload Size: 10289 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 336_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40714
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 337_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40714
-|Payload Size: 3807 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 338_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40714
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 339_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40714
+|TCP Source Port: 27443
+|TCP Destination Port: 48424
 |Payload Size: 1440 bytes
 |Packet Type: TLS
 ---------------------------------------------
@@ -3224,1294 +2399,324 @@
 |Version: TLS v1.2
 
 
- _______________P A C K E T 340_______________
+ _______________P A C K E T 262_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40714
-|Destination Port: 443
+|Destination IPv4 Address: 36.156.112.250
+|TCP Source Port: 48424
+|TCP Destination Port: 27443
 |Payload Size: 0 bytes
 |Packet Type: TCP
 
- _______________P A C K E T 341_______________
-|Source IPv4 Address: 110.242.68.4
+ _______________P A C K E T 263_______________
+|Source IPv4 Address: 36.156.112.250
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40714
-|Payload Size: 1460 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 342_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40714
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 343_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40714
-|Payload Size: 1621 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 344_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40714
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 345_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40714
-|Payload Size: 1460 bytes
+|TCP Source Port: 27443
+|TCP Destination Port: 48424
+|Payload Size: 1416 bytes
 |Packet Type: TLS
 ---------------------------------------------
 |Content Type: Application Data
 |Version: TLS v1.2
 
 
- _______________P A C K E T 346_______________
+ _______________P A C K E T 264_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40714
-|Destination Port: 443
+|Destination IPv4 Address: 36.156.112.250
+|TCP Source Port: 48424
+|TCP Destination Port: 27443
 |Payload Size: 0 bytes
 |Packet Type: TCP
 
- _______________P A C K E T 347_______________
-|Source IPv4 Address: 110.242.68.4
+ _______________P A C K E T 265_______________
+|Source IPv4 Address: 36.156.112.250
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40714
-|Payload Size: 1356 bytes
+|TCP Source Port: 27443
+|TCP Destination Port: 48424
+|Payload Size: 1440 bytes
 |Packet Type: TCP
 
- _______________P A C K E T 348_______________
+ _______________P A C K E T 266_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40714
-|Destination Port: 443
+|Destination IPv4 Address: 36.156.112.250
+|TCP Source Port: 48424
+|TCP Destination Port: 27443
 |Payload Size: 0 bytes
 |Packet Type: TCP
 
- _______________P A C K E T 349_______________
-|Source IPv4 Address: 110.242.68.4
+ _______________P A C K E T 267_______________
+|Source IPv4 Address: 36.156.112.250
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40714
-|Payload Size: 2644 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
+|TCP Source Port: 27443
+|TCP Destination Port: 48424
+|Payload Size: 1416 bytes
+|Packet Type: TCP
 
-
- _______________P A C K E T 350_______________
+ _______________P A C K E T 268_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40714
-|Destination Port: 443
+|Destination IPv4 Address: 36.156.112.250
+|TCP Source Port: 48424
+|TCP Destination Port: 27443
 |Payload Size: 0 bytes
 |Packet Type: TCP
 
- _______________P A C K E T 351_______________
-|Source IPv4 Address: 110.242.68.4
+ _______________P A C K E T 269_______________
+|Source IPv4 Address: 36.156.112.250
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40714
-|Payload Size: 1460 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
+|TCP Source Port: 27443
+|TCP Destination Port: 48424
+|Payload Size: 1440 bytes
+|Packet Type: TCP
 
-
- _______________P A C K E T 352_______________
+ _______________P A C K E T 270_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40714
-|Destination Port: 443
+|Destination IPv4 Address: 36.156.112.250
+|TCP Source Port: 48424
+|TCP Destination Port: 27443
 |Payload Size: 0 bytes
 |Packet Type: TCP
 
- _______________P A C K E T 353_______________
-|Source IPv4 Address: 110.242.68.4
+ _______________P A C K E T 271_______________
+|Source IPv4 Address: 36.156.112.250
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40714
-|Payload Size: 1420 bytes
+|TCP Source Port: 27443
+|TCP Destination Port: 48424
+|Payload Size: 1416 bytes
 |Packet Type: TCP
 
- _______________P A C K E T 354_______________
+ _______________P A C K E T 272_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40714
-|Destination Port: 443
+|Destination IPv4 Address: 36.156.112.250
+|TCP Source Port: 48424
+|TCP Destination Port: 27443
 |Payload Size: 0 bytes
 |Packet Type: TCP
 
- _______________P A C K E T 355_______________
-|Source IPv4 Address: 110.242.68.4
+ _______________P A C K E T 273_______________
+|Source IPv4 Address: 36.156.112.250
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40714
-|Payload Size: 7200 bytes
+|TCP Source Port: 27443
+|TCP Destination Port: 48424
+|Payload Size: 1428 bytes
 |Packet Type: TCP
 
- _______________P A C K E T 356_______________
+ _______________P A C K E T 274_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40714
-|Destination Port: 443
+|Destination IPv4 Address: 36.156.112.250
+|TCP Source Port: 48424
+|TCP Destination Port: 27443
 |Payload Size: 0 bytes
 |Packet Type: TCP
 
- _______________P A C K E T 357_______________
-|Source IPv4 Address: 110.242.68.4
+ _______________P A C K E T 275_______________
+|Source IPv4 Address: 36.156.112.250
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40714
-|Payload Size: 4320 bytes
+|TCP Source Port: 27443
+|TCP Destination Port: 48424
+|Payload Size: 1428 bytes
 |Packet Type: TCP
 
- _______________P A C K E T 358_______________
+ _______________P A C K E T 276_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40714
-|Destination Port: 443
+|Destination IPv4 Address: 36.156.112.250
+|TCP Source Port: 48424
+|TCP Destination Port: 27443
 |Payload Size: 0 bytes
 |Packet Type: TCP
 
- _______________P A C K E T 359_______________
-|Source IPv4 Address: 110.242.68.4
+ _______________P A C K E T 277_______________
+|Source IPv4 Address: 36.156.112.250
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40714
-|Payload Size: 8640 bytes
+|TCP Source Port: 27443
+|TCP Destination Port: 48424
+|Payload Size: 1428 bytes
 |Packet Type: TCP
 
- _______________P A C K E T 360_______________
+ _______________P A C K E T 278_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40714
-|Destination Port: 443
+|Destination IPv4 Address: 36.156.112.250
+|TCP Source Port: 48424
+|TCP Destination Port: 27443
 |Payload Size: 0 bytes
 |Packet Type: TCP
 
- _______________P A C K E T 361_______________
-|Source IPv4 Address: 110.242.68.4
+ _______________P A C K E T 279_______________
+|Source IPv4 Address: 36.156.112.250
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40714
-|Payload Size: 4320 bytes
+|TCP Source Port: 27443
+|TCP Destination Port: 48424
+|Payload Size: 2856 bytes
 |Packet Type: TCP
 
- _______________P A C K E T 362_______________
+ _______________P A C K E T 280_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40714
-|Destination Port: 443
+|Destination IPv4 Address: 36.156.112.250
+|TCP Source Port: 48424
+|TCP Destination Port: 27443
 |Payload Size: 0 bytes
 |Packet Type: TCP
 
- _______________P A C K E T 363_______________
-|Source IPv4 Address: 110.242.68.4
+ _______________P A C K E T 281_______________
+|Source IPv4 Address: 36.156.112.250
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40714
-|Payload Size: 2880 bytes
+|TCP Source Port: 27443
+|TCP Destination Port: 48424
+|Payload Size: 5712 bytes
 |Packet Type: TCP
 
- _______________P A C K E T 364_______________
+ _______________P A C K E T 282_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40714
-|Destination Port: 443
+|Destination IPv4 Address: 36.156.112.250
+|TCP Source Port: 48424
+|TCP Destination Port: 27443
 |Payload Size: 0 bytes
 |Packet Type: TCP
 
- _______________P A C K E T 365_______________
-|Source IPv4 Address: 110.242.68.4
+ _______________P A C K E T 283_______________
+|Source IPv4 Address: 36.156.112.250
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40714
-|Payload Size: 5760 bytes
+|TCP Source Port: 27443
+|TCP Destination Port: 48424
+|Payload Size: 2856 bytes
 |Packet Type: TCP
 
- _______________P A C K E T 366_______________
+ _______________P A C K E T 284_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40714
-|Destination Port: 443
+|Destination IPv4 Address: 36.156.112.250
+|TCP Source Port: 48424
+|TCP Destination Port: 27443
 |Payload Size: 0 bytes
 |Packet Type: TCP
 
- _______________P A C K E T 367_______________
-|Source IPv4 Address: 110.242.68.4
+ _______________P A C K E T 285_______________
+|Source IPv4 Address: 36.156.112.250
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40714
-|Payload Size: 4320 bytes
+|TCP Source Port: 27443
+|TCP Destination Port: 48424
+|Payload Size: 1440 bytes
 |Packet Type: TCP
 
- _______________P A C K E T 368_______________
+ _______________P A C K E T 286_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40714
-|Destination Port: 443
+|Destination IPv4 Address: 36.156.112.250
+|TCP Source Port: 48424
+|TCP Destination Port: 27443
 |Payload Size: 0 bytes
 |Packet Type: TCP
 
- _______________P A C K E T 369_______________
-|Source IPv4 Address: 110.242.68.4
+ _______________P A C K E T 287_______________
+|Source IPv4 Address: 36.156.112.250
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40714
-|Payload Size: 4320 bytes
+|TCP Source Port: 27443
+|TCP Destination Port: 48424
+|Payload Size: 1416 bytes
 |Packet Type: TCP
 
- _______________P A C K E T 370_______________
+ _______________P A C K E T 288_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40714
-|Destination Port: 443
+|Destination IPv4 Address: 36.156.112.250
+|TCP Source Port: 48424
+|TCP Destination Port: 27443
 |Payload Size: 0 bytes
 |Packet Type: TCP
 
- _______________P A C K E T 371_______________
-|Source IPv4 Address: 110.242.68.4
+ _______________P A C K E T 289_______________
+|Source IPv4 Address: 36.156.112.250
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40714
-|Payload Size: 2880 bytes
+|TCP Source Port: 27443
+|TCP Destination Port: 48424
+|Payload Size: 2856 bytes
 |Packet Type: TCP
 
- _______________P A C K E T 372_______________
+ _______________P A C K E T 290_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40714
-|Destination Port: 443
+|Destination IPv4 Address: 36.156.112.250
+|TCP Source Port: 48424
+|TCP Destination Port: 27443
 |Payload Size: 0 bytes
 |Packet Type: TCP
 
- _______________P A C K E T 373_______________
-|Source IPv4 Address: 110.242.68.4
+ _______________P A C K E T 291_______________
+|Source IPv4 Address: 36.156.112.250
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40714
-|Payload Size: 2880 bytes
+|TCP Source Port: 27443
+|TCP Destination Port: 48424
+|Payload Size: 1428 bytes
 |Packet Type: TCP
 
- _______________P A C K E T 374_______________
+ _______________P A C K E T 292_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40714
-|Destination Port: 443
+|Destination IPv4 Address: 36.156.112.250
+|TCP Source Port: 48424
+|TCP Destination Port: 27443
 |Payload Size: 0 bytes
 |Packet Type: TCP
 
- _______________P A C K E T 375_______________
-|Source IPv4 Address: 110.242.68.4
+ _______________P A C K E T 293_______________
+|Source IPv4 Address: 36.156.112.250
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40714
-|Payload Size: 549 bytes
+|TCP Source Port: 27443
+|TCP Destination Port: 48424
+|Payload Size: 1031 bytes
 |Packet Type: TCP
 
- _______________P A C K E T 376_______________
+ _______________P A C K E T 294_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40714
-|Destination Port: 443
+|Destination IPv4 Address: 36.156.112.250
+|TCP Source Port: 48424
+|TCP Destination Port: 27443
 |Payload Size: 0 bytes
 |Packet Type: TCP
 
- _______________P A C K E T 377_______________
+ _______________P A C K E T 295_______________
+|Source IPv4 Address: 192.168.40.1
+|Destination IPv4 Address: 239.255.255.250
+|Packet Type: UDP
+
+ _______________P A C K E T 296_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.3
-|Source Port: 54966
-|Destination Port: 443
-|Payload Size: 1876 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 378_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.3
-|Source Port: 54964
-|Destination Port: 443
-|Payload Size: 2122 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 379_______________
-|Source IPv4 Address: 110.242.68.3
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 54966
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 380_______________
-|Source IPv4 Address: 110.242.68.3
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 54966
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 381_______________
-|Source IPv4 Address: 110.242.68.3
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 54964
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 382_______________
-|Source IPv4 Address: 110.242.68.3
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 54964
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 383_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40714
-|Destination Port: 443
-|Payload Size: 2677 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 384_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40714
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 385_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40714
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 386_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.3
-|Source Port: 55006
-|Destination Port: 443
+|Destination IPv4 Address: 36.156.112.250
+|TCP Source Port: 48446
+|TCP Destination Port: 27443
 |Payload Size: 20 bytes
 |Packet Type: TCP
 
- _______________P A C K E T 387_______________
-|Source IPv4 Address: 110.242.68.3
+ _______________P A C K E T 297_______________
+|Source IPv4 Address: 36.156.112.250
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 54964
-|Payload Size: 549 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
+|TCP Source Port: 27443
+|TCP Destination Port: 48446
+|Payload Size: 6 bytes
+|Packet Type: TCP
 
-
- _______________P A C K E T 388_______________
+ _______________P A C K E T 298_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.3
-|Source Port: 54964
-|Destination Port: 443
+|Destination IPv4 Address: 36.156.112.250
+|TCP Source Port: 48446
+|TCP Destination Port: 27443
 |Payload Size: 0 bytes
 |Packet Type: TCP
 
- _______________P A C K E T 389_______________
+ _______________P A C K E T 299_______________
 |Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.3
-|Source Port: 54964
-|Destination Port: 443
-|Payload Size: 3021 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 390_______________
-|Source IPv4 Address: 110.242.68.3
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 54964
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 391_______________
-|Source IPv4 Address: 110.242.68.3
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 54964
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 392_______________
-|Source IPv4 Address: 110.242.68.3
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 54964
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 393_______________
-|Source IPv4 Address: 110.242.68.3
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 55006
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 394_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.3
-|Source Port: 55006
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 395_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.3
-|Source Port: 55006
-|Destination Port: 443
-|Payload Size: 517 bytes
+|Destination IPv4 Address: 36.156.112.250
+|TCP Source Port: 48446
+|TCP Destination Port: 27443
+|Payload Size: 557 bytes
 |Packet Type: TLS
 ---------------------------------------------
 |Content Type: Handshake-Client Hello
-|Random: 5d1edb023bfc74e695bbc4c2b135319ef0d9e7d9099b8b9e8a48e2f56bce50ee
-|Session ID: c24605df390e33ca00a0db997a6e8b47a10a38a04fd8bb28ad1c67c57c9cdbcb
-|Cipher Suite: { 0x5a5a 0x1301 0x1302 0x1303 0xc02b 0xc02f 0xc02c 0xc030 0xcca9 0xcca8 0xc013 0xc014 0x9c 0x9d 0x2f 0x35 }
-|Server Name: sp1.baidu.com
+|Random: 3f897d4088a2252926f81fc434b1ce65fc4ec5d2f0fc5cd195388672901a5da3
+|Session ID: b9103aa8ee7b9263bed395dae9d436c2754ae8bb8011885ef5e9fe75df5b447d
+|Cipher Suite: { 0x6a6a 0x1301 0x1302 0x1303 0xc02b 0xc02f 0xc02c 0xc030 0xcca9 0xcca8 0xc013 0xc014 0x9c 0x9d 0x2f 0x35 }
+|Server Name: img677868273.virginatlanticgroup.com
 |Version: TLS v1.0
 
 
- _______________P A C K E T 396_______________
-|Source IPv4 Address: 110.242.68.3
+ _______________P A C K E T 300_______________
+|Source IPv4 Address: 36.156.112.250
 |Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 55006
+|TCP Source Port: 27443
+|TCP Destination Port: 48446
 |Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 397_______________
-|Source IPv4 Address: 110.242.68.3
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 55006
-|Payload Size: 158 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Handshake-Server Hello
-|Random: 6239da4fbe6af4adb184a81eb8484fdd64850a3e3ccb535e46031ae868b846da
-|Session ID: c24605df390e33ca00a0db997a6e8b47a10a38a04fd8bb28ad1c67c57c9cdbcb
-|Cipher Suite: { 0xc02f }
-|Version: TLS v1.2
-
-
- _______________P A C K E T 398_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.3
-|Source Port: 55006
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 399_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.3
-|Source Port: 55006
-|Destination Port: 443
-|Payload Size: 51 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Changer Cipher Spec
-|Version: TLS v1.2
-
-
- _______________P A C K E T 400_______________
-|Source IPv4 Address: 110.242.68.3
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 55006
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 401_______________
-|Source IPv4 Address: 110.242.68.3
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 54964
-|Payload Size: 430 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 402_______________
-|Source IPv4 Address: 110.242.68.3
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 54966
-|Payload Size: 263 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 403_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.3
-|Source Port: 54966
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 404_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.3
-|Source Port: 54964
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 405_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40714
-|Payload Size: 796 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 406_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40714
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 407_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.3
-|Source Port: 54968
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 408_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40716
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 409_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.3
-|Source Port: 54964
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 410_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.3
-|Source Port: 54966
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 411_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40714
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 412_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.3
-|Source Port: 55006
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 413_______________
-|Source IPv4 Address: 110.242.68.3
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 55006
-|Payload Size: 31 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Encrypted Alert
-|Version: TLS v1.2
-
-
- _______________P A C K E T 414_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.3
-|Source Port: 55006
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 415_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40714
-|Payload Size: 31 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Encrypted Alert
-|Version: TLS v1.2
-
-
- _______________P A C K E T 416_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40714
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 417_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.3
-|Source Port: 55006
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 418_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40714
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 419_______________
-|Source IPv4 Address: 110.242.68.3
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 55006
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 420_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40716
-|Destination Port: 443
-|Payload Size: 3010 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 421_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40716
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 422_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40716
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 423_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40716
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 424_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40716
-|Payload Size: 4154 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 425_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40716
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 426_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40716
-|Payload Size: 2880 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 427_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40716
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 428_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40716
-|Payload Size: 4674 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 429_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40716
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 430_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40716
-|Payload Size: 2098 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 431_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40716
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 432_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40716
-|Payload Size: 5895 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 433_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40716
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 434_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40716
-|Payload Size: 5259 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 435_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40716
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 436_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40716
-|Payload Size: 2518 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 437_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40716
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 438_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40716
-|Payload Size: 1591 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 439_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40716
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 440_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40716
-|Payload Size: 3234 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 441_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40716
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 442_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40716
-|Payload Size: 2880 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 443_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40716
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 444_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40716
-|Payload Size: 4320 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 445_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40716
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 446_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40716
-|Payload Size: 2880 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 447_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40716
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 448_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40716
-|Payload Size: 9452 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 449_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40716
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 450_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40716
-|Destination Port: 443
-|Payload Size: 3004 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 451_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40716
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 452_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40716
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 453_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40716
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 454_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.3
-|Source Port: 54966
-|Destination Port: 443
-|Payload Size: 2160 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 455_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.3
-|Source Port: 54964
-|Destination Port: 443
-|Payload Size: 3045 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 456_______________
-|Source IPv4 Address: 110.242.68.3
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 54966
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 457_______________
-|Source IPv4 Address: 110.242.68.3
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 54966
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 458_______________
-|Source IPv4 Address: 110.242.68.3
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 54964
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 459_______________
-|Source IPv4 Address: 110.242.68.3
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 54964
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 460_______________
-|Source IPv4 Address: 110.242.68.3
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 54964
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 461_______________
-|Source IPv4 Address: 110.242.68.3
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 54964
-|Payload Size: 430 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 462_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.3
-|Source Port: 54964
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 463_______________
-|Source IPv4 Address: 110.242.68.3
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 54966
-|Payload Size: 263 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 464_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.3
-|Source Port: 54966
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 465_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40716
-|Payload Size: 795 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Application Data
-|Version: TLS v1.2
-
-
- _______________P A C K E T 466_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40716
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 467_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.3
-|Source Port: 54964
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 468_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.3
-|Source Port: 54966
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 469_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.3
-|Source Port: 54968
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 470_______________
-|Source IPv4 Address: 110.242.68.3
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 54964
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 471_______________
-|Source IPv4 Address: 110.242.68.3
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 54966
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 472_______________
-|Source IPv4 Address: 110.242.68.3
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 54968
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 473_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40716
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 474_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40716
-|Payload Size: 6 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 475_______________
-|Source IPv4 Address: 110.242.68.3
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 54964
-|Payload Size: 31 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Encrypted Alert
-|Version: TLS v1.2
-
-
- _______________P A C K E T 476_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.3
-|Source Port: 54964
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 477_______________
-|Source IPv4 Address: 110.242.68.3
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 54968
-|Payload Size: 31 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Encrypted Alert
-|Version: TLS v1.2
-
-
- _______________P A C K E T 478_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.3
-|Source Port: 54968
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 479_______________
-|Source IPv4 Address: 110.242.68.4
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 40716
-|Payload Size: 31 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Encrypted Alert
-|Version: TLS v1.2
-
-
- _______________P A C K E T 480_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.4
-|Source Port: 40716
-|Destination Port: 443
-|Payload Size: 0 bytes
-|Packet Type: TCP
-
- _______________P A C K E T 481_______________
-|Source IPv4 Address: 110.242.68.3
-|Destination IPv4 Address: 192.168.40.135
-|Source Port: 443
-|Destination Port: 54966
-|Payload Size: 31 bytes
-|Packet Type: TLS
----------------------------------------------
-|Content Type: Encrypted Alert
-|Version: TLS v1.2
-
-
- _______________P A C K E T 482_______________
-|Source IPv4 Address: 192.168.40.135
-|Destination IPv4 Address: 110.242.68.3
-|Source Port: 54966
-|Destination Port: 443
-|Payload Size: 0 bytes
 |Packet Type: TCP
 
