@@ -38,11 +38,36 @@ void client_hello_handler(struct ClientHello *client_hello)
     fprintf(output, "%s\n", server_name);
 }
 
+void server_hello_handler(struct ServerHello *server_hello)
+{
+    // Random Number
+    fprintf(output, "|Random: %02x", BSWAP_32(server_hello->Random.gmt_unix_time));
+    for (int i = 0; i < 28; i++)
+    {
+        fprintf(output, "%02x", server_hello->Random.random_bytes[i]);
+    }
+    fprintf(output, "\n");
+
+    // Session ID
+    fprintf(output, "|Session ID: ");
+    for (int i = 0; i < 32; i++)
+    {
+        fprintf(output, "%02x", server_hello->SessionID.id[i]);
+    }
+    fprintf(output, "\n");
+
+    // Cipher Suite
+    fprintf(output, "|Cipher Suite: ");
+    fprintf(output, "{ 0x%02x }\n", BSWAP_16(server_hello->CipherSuite.suite));
+
+}
+
 void tls_info_extr(u_char *payload, int data_len)
 {
     /*--------------------------------------Initialization--------------------------------------*/
     record_layer_header = (struct RecordLayer_Header *)malloc(sizeof(struct RecordLayer_Header));
     client_hello = (struct ClientHello *)malloc(sizeof(struct ClientHello));
+    server_hello = (struct ServerHello *)malloc(sizeof(struct ServerHello));
 
     /*-------------Record Layer Header------------*/
     memcpy(record_layer_header, payload, RECORDLAYER_HEADER_SIZE);
@@ -69,6 +94,8 @@ void tls_info_extr(u_char *payload, int data_len)
             break;
         case 0x02:
             fprintf(output, "Server Hello\n");
+            memcpy(server_hello, payload + RECORDLAYER_HEADER_SIZE, SERVERHELLO_SIZE);
+            server_hello_handler(server_hello);
             break;
         case 0x0b:
             fprintf(output, "Certificate\n");
@@ -136,4 +163,5 @@ void tls_info_extr(u_char *payload, int data_len)
 
     free(record_layer_header);
     free(client_hello);
+    free(server_hello);
 }

@@ -29,14 +29,14 @@ u_int32_t BSWAP_32(u_int32_t x)
 */
 struct time_val
 {
-    u_int32_t tv_sec;  /* seconds */
-    u_int32_t tv_usec; /* and microseconds */
+    u_int32_t tv_sec;  // seconds
+    u_int32_t tv_usec; // and microseconds
 };
 struct pcap_packet_header
 {
-    struct time_val ts; /* time stamp */
-    bpf_u_int32 caplen; /* length of portion present */
-    bpf_u_int32 len;    /* length this packet (off wire) */
+    struct time_val ts; // time stamp
+    bpf_u_int32 caplen; // length of portion present
+    bpf_u_int32 len;    // length this packet (off wire)
 };
 
 // Ethernet Header
@@ -46,7 +46,7 @@ struct Ethernet_Header
     u_char Src_MAC[6];  // Source Ethernet Address
     u_int16_t Eth_Type; // Frame Type - IP version
     /*
-        IPv4 = 0x8000
+        IPv4 = 0x0800
         IPv6 = 0x86dd
     */
 };
@@ -67,14 +67,15 @@ struct IPv4_Header
     u_char Dst_IP[4];        // Destination IPv4 Address
 };
 
+// IPv6 Header
 struct IPv6_Header
 {
     u_int32_t Dummy;       // Version + Priority/Traffic Class + Flow Label
     u_int16_t Payload_Len; // Payload Length
     u_int8_t Next_Header;  // Next Header
     u_int8_t Hop_Limit;    // Hop Limit
-    u_int32_t Src_IP[4];   // Source IPv4 Address
-    u_int32_t Dst_IP[4];   // Destination IPv4 Address
+    u_int32_t Src_IP[4];   // Source IPv6 Address
+    u_int32_t Dst_IP[4];   // Destination IPv6 Address
 };
 
 // TCP Header

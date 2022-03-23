@@ -109,10 +109,23 @@ struct ClientHello
     } ExtenstionServerName;
 } __attribute__((packed));
 
+struct ServerHello
+{
+    handshake_t Handshake;            // Handshake Type: ClientHello/ServerHello...
+    u_int8_t length[3];               // Length of Server Hello Message
+    protocol_version_t ClientVersion; // TLS Version
+    random_t Random;                  // Random Number
+    u_int8_t session_id_len;          // Length of Session ID
+    session_id_t SessionID;           // Session ID
+    cipher_suite_t CipherSuite;       // Picked Cipher Suite
+} __attribute__((packed));
+
 struct RecordLayer_Header *record_layer_header;
 struct ClientHello *client_hello;
+struct ServerHello *server_hello;
 
 const int RECORDLAYER_HEADER_SIZE = sizeof(struct RecordLayer_Header);
 const int CLIENTHELLO_SIZE = sizeof(struct ClientHello);
+const int SERVERHELLO_SIZE = sizeof(struct ServerHello);
 
 #endif

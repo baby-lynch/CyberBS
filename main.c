@@ -3,7 +3,7 @@
 int main(int argc, char *argv[])
 {
     FILE *fp;
-    const char *FILEPATH = "./pcap/IPV6.pcap";
+    const char *FILEPATH = "./pcap/baidu/All.pcap";
 
     int pkt_no = 0; // Packet sequence number
     int pkt_offset; // Packet offset
@@ -37,25 +37,29 @@ int main(int argc, char *argv[])
 
     while (fseek(fp, pkt_offset, SEEK_SET) == 0)
     {
+        HEADER_LEN = 0; // reset header length
         pkt_no++;
         memset(pkt_header, 0, PACKET_HEADER_SIZE);
-        if (fread(pkt_header, 16, 1, fp) != 1)
+        if (fread(pkt_header, PACKET_HEADER_SIZE, 1, fp) != 1)
         {
             printf(">> info: read end of pcap file\n");
             break;
         }
-        pkt_offset += 16 + pkt_header->caplen; // offset of next packet
+        pkt_offset += PACKET_HEADER_SIZE + pkt_header->caplen; // offset of next packet
 
         fprintf(output, " _______________P A C K E T %d_______________\n", pkt_no);
 
         /*-------------Ethernet header-------------*/
+        HEADER_LEN += ETHERNET_HEADER_SIZE;
         memset(eth_header, 0, ETHERNET_HEADER_SIZE);
         fread(eth_header, ETHERNET_HEADER_SIZE, 1, fp);
+
+        /*----------------IP header----------------*/
         switch (BSWAP_16(eth_header->Eth_Type))
         {
         case 0x0800:
             /*-------------IPv4 header-------------*/
-            HEADER_LEN = ETHERNET_HEADER_SIZE + IPv4_HEADER_SIZE + TCP_HEADER_SIZE;
+            HEADER_LEN += IPv4_HEADER_SIZE;
             memset(ipv4_header, 0, IPv4_HEADER_SIZE);
             fread(ipv4_header, IPv4_HEADER_SIZE, 1, fp);
             inet_ntop(AF_INET, (void *)&(ipv4_header->Src_IP), src_ip, 16);
@@ -63,10 +67,9 @@ int main(int argc, char *argv[])
             fprintf(output, "|Source IPv4 Address: %s\n", src_ip);
             fprintf(output, "|Destination IPv4 Address: %s\n", dst_ip);
             break;
-
         case 0x86dd:
             /*-------------IPv6 header-------------*/
-            HEADER_LEN = ETHERNET_HEADER_SIZE + IPv6_HEADER_SIZE + TCP_HEADER_SIZE;
+            HEADER_LEN += IPv6_HEADER_SIZE;
             memset(ipv6_header, 0, IPv6_HEADER_SIZE);
             fread(ipv6_header, IPv6_HEADER_SIZE, 1, fp);
             inet_ntop(AF_INET6, (void *)&(ipv6_header->Src_IP), src_ip, 46);
@@ -78,6 +81,7 @@ int main(int argc, char *argv[])
         }
 
         /*-------------TCP header-------------*/
+        HEADER_LEN += TCP_HEADER_SIZE;
         memset(tcp_header, 0, TCP_HEADER_SIZE);
         fread(tcp_header, TCP_HEADER_SIZE, 1, fp);
         fprintf(output, "|Source Port: %d\n", ntohs(tcp_header->SrcPort));
@@ -117,6 +121,8 @@ int main(int argc, char *argv[])
     fclose(output);
     free(file_header);
     free(pkt_header);
+    free(eth_header);
     free(ipv4_header);
+    free(ipv6_header);
     free(tcp_header);
 }
