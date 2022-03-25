@@ -21,6 +21,18 @@ u_int32_t BSWAP_32(u_int32_t x)
     return __bswap_32(x);
 }
 
+// Low-High 4 bit of ONE BYTE manipulation
+u_int8_t High_4(u_int8_t x)
+{
+    return (x & 0xf0) >> 4;
+}
+u_int8_t Low_4(u_int8_t x)
+{
+    return (x & 0x0f);
+}
+
+extern u_int8_t High_4(u_int8_t x);
+
 // PCAP file header is redefined here
 /*@ Annotation @
   In the pcap.h file, tv_sec and tv_usec (in struct pcap_pkthdr.timaval)are declared as long type
@@ -89,7 +101,7 @@ struct TCP_Header
     u_int16_t DstPort;       // Destination Port
     u_int32_t SeqNO;         // Sequence Number
     u_int32_t AckNO;         // Acknowledgement Number
-    u_int8_t HeaderLen;      // Header Length(4 bit) + Reserved(4 bit)
+    u_int8_t HeaderLen;      // Header Length(4 bit) = HeaderLen * 4B !!! + Reserved(4 bit)
     u_int8_t Flags;          // Flags
     u_int16_t Window;        // Window Size
     u_int16_t Checksum;      // Checksum
@@ -108,7 +120,7 @@ const int PACKET_HEADER_SIZE = sizeof(struct pcap_packet_header);
 const int ETHERNET_HEADER_SIZE = sizeof(struct Ethernet_Header);
 const int IPv4_HEADER_SIZE = sizeof(struct IPv4_Header);
 const int IPv6_HEADER_SIZE = sizeof(struct IPv6_Header);
-const int TCP_HEADER_SIZE = sizeof(struct TCP_Header);
+const int TCP_HEADER_SIZE = sizeof(struct TCP_Header); // in which the length of Options is ignored
 
 extern void tls_info_extr(u_char *payload, int data_len); // Extract information from TLS packets
 

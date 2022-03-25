@@ -157,7 +157,6 @@ void tls_info_extr(u_char *payload, int data_len)
     {
         fprintf(output, "Unknown Version\n");
     }
-    fprintf(output, "\n\n");
 
     free(record_layer_header);
     free(client_hello);

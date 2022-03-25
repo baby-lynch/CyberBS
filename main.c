@@ -3,12 +3,13 @@
 int main(int argc, char *argv[])
 {
     FILE *fp;
-    const char *FILEPATH = "./pcap/UDP.pcap";
+    const char *FILEPATH = "./pcap/instagram.pcap";
 
-    int pkt_no = 0; // Packet sequence number
-    int pkt_offset; // Packet offset
-    int HEADER_LEN; // Length of all headers
-    int DATA_LEN;   // Lenght of payload
+    int pkt_no = 0;             // Packet sequence number
+    int pkt_offset;             // Packet offset
+    int HEADER_LEN;             // Length of all headers
+    int DATA_LEN;               // Lenght of payload
+    int actual_tcp_header_size; // TCP header length read from its header (with Options tailed)
     char src_ip[STRSIZE], dst_ip[STRSIZE];
     u_char Payload[BUFSIZE];
     u_char check_bytes[2];    // check if the packet belongs to TLS; 0x14<=check_bytes[0]<=0x17, check_bytes[2]=0x03
@@ -34,9 +35,10 @@ int main(int argc, char *argv[])
         printf(">> error: can not open output file\n");
         exit(0);
     }
+
     pkt_offset = 24; // PCAP 24 bytes file header
 
-    while (fseek(fp, pkt_offset, SEEK_SET) == 0)
+    while (!fseek(fp, pkt_offset, SEEK_SET))
     {
         HEADER_LEN = 0; // reset header length
         pkt_no++;
@@ -87,47 +89,56 @@ int main(int argc, char *argv[])
         {
         case 0x06:
             /*-------------TCP header-------------*/
-            HEADER_LEN += TCP_HEADER_SIZE;
             memset(tcp_header, 0, TCP_HEADER_SIZE);
             fread(tcp_header, TCP_HEADER_SIZE, 1, fp);
+            // curse backwards for the sake of reading HEADER LENGTH bytes from the beginning of tcp header
+            fseek(fp, -TCP_HEADER_SIZE, SEEK_CUR);
+            actual_tcp_header_size = High_4(tcp_header->HeaderLen) * 4;
+            // tcp header length is counted PER 4 BTYE !!!
+            HEADER_LEN += actual_tcp_header_size;
             fprintf(output, "|TCP Source Port: %d\n", ntohs(tcp_header->SrcPort));
             fprintf(output, "|TCP Destination Port: %d\n", ntohs(tcp_header->DstPort));
-            break;
-        case 0x11:
-            fprintf(output, "|Packet Type: UDP\n\n");
-            continue;    // ignore UDP packet
-            break;
-        default:
-            break;
-        }
 
-        /*-------------Payload-------------*/
-        DATA_LEN = pkt_header->caplen - HEADER_LEN;
-        fread(Payload, DATA_LEN, 1, fp);
-        fprintf(output, "|Payload Size: %d bytes\n", DATA_LEN);
-        if (DATA_LEN > 0)
-        {
-            memcpy(check_bytes, Payload, 2);
-            if (check_bytes[0] >= 0x14 && check_bytes[0] <= 0x17) // determine whether a packet belongs to TLS
+            /*-------------TCP Payload-------------*/
+            DATA_LEN = pkt_header->caplen - HEADER_LEN;
+            fseek(fp, actual_tcp_header_size, SEEK_CUR);
+            fread(Payload, DATA_LEN, 1, fp);
+            fprintf(output, "|Payload Size: %d bytes\n", DATA_LEN);
+            if (DATA_LEN > 0)
             {
-                if (check_bytes[1] == 0x03)
+                memcpy(check_bytes, Payload, 2);
+                // determine whether a packet belongs to TLS
+                if (check_bytes[0] >= 0x14 && check_bytes[0] <= 0x17)
                 {
-                    fprintf(output, "|Packet Type: TLS\n");
-                    tls_info_extr(Payload, DATA_LEN); // extract information from TLS
+                    if (check_bytes[1] == 0x03)
+                    {
+                        fprintf(output, "|Packet Type: TLS\n");
+                        // extract information from TLS
+                        tls_info_extr(Payload, DATA_LEN);
+                    }
+                    else
+                    {
+                        fprintf(output, "|Packet Type: TCP\n");
+                    }
                 }
                 else
                 {
-                    fprintf(output, "|Packet Type: TCP\n\n");
+                    fprintf(output, "|Packet Type: TCP\n");
                 }
             }
             else
             {
-                fprintf(output, "|Packet Type: TCP\n\n");
+                fprintf(output, "|Packet Type: TCP\n");
             }
-        }
-        else
-        {
-            fprintf(output, "|Packet Type: TCP\n\n");
+            fprintf(output, "\n");
+            break;
+        case 0x11:
+            /*-------------UDP header-------------*/
+            fprintf(output, "|Packet Type: UDP\n\n");
+            continue; // ignore UDP packet
+            break;
+        default:
+            break;
         }
     }
 
