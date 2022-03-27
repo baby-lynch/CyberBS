@@ -21,7 +21,7 @@ u_int32_t BSWAP_32(u_int32_t x)
     return __bswap_32(x);
 }
 
-// Low-High 4 bit of ONE BYTE manipulation
+// Low-High 4 bit manipulation of ONE BYTE
 u_int8_t High_4(u_int8_t x)
 {
     return (x & 0xf0) >> 4;
@@ -30,8 +30,6 @@ u_int8_t Low_4(u_int8_t x)
 {
     return (x & 0x0f);
 }
-
-extern u_int8_t High_4(u_int8_t x);
 
 // PCAP file header is redefined here
 /*@ Annotation @
@@ -56,11 +54,7 @@ struct Ethernet_Header
 {
     u_char Dst_MAC[6];  // Destination Ethernet Address
     u_char Src_MAC[6];  // Source Ethernet Address
-    u_int16_t Eth_Type; // Frame Type - IP version
-    /*
-        IPv4 = 0x0800
-        IPv6 = 0x86dd
-    */
+    u_int16_t Eth_Type; // Frame Type - IP version  /* IPv4 = 0x0800 IPv6 = 0x86dd */
 };
 
 // IPv4 Header
@@ -73,14 +67,10 @@ struct IPv4_Header
     u_int16_t ID;            // Identifier
     u_int16_t Flag_Segment;  // Flags+Fragmented Offset
     u_int8_t TTL : 8;        // Time to Live
-    u_int8_t Protocol : 8;   // Protocol
-    /*
-        TCP = 0x06
-        UDP = 0x11
-    */
-    u_int16_t Checksum; // Header Checksum
-    u_char Src_IP[4];   // Source IPv4 Address
-    u_char Dst_IP[4];   // Destination IPv4 Address
+    u_int8_t Protocol : 8;   // Protocol  /* TCP = 0x06 UDP = 0x11 */
+    u_int16_t Checksum;      // Header Checksum
+    u_char Src_IP[4];        // Source IPv4 Address
+    u_char Dst_IP[4];        // Destination IPv4 Address
 };
 
 // IPv6 Header

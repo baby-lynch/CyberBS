@@ -1,15 +1,15 @@
 #include "header.h"
 
-int main(int argc, char *argv[])
+int main()
 {
     FILE *fp;
     const char *FILEPATH = "./pcap/instagram.pcap";
 
     int pkt_no = 0;             // Packet sequence number
     int pkt_offset;             // Packet offset
+    int actual_tcp_header_size; // TCP header length read from its header (with Options tailed)
     int HEADER_LEN;             // Length of all headers
     int DATA_LEN;               // Lenght of payload
-    int actual_tcp_header_size; // TCP header length read from its header (with Options tailed)
     char src_ip[STRSIZE], dst_ip[STRSIZE];
     u_char Payload[BUFSIZE];
     u_char check_bytes[2];    // check if the packet belongs to TLS; 0x14<=check_bytes[0]<=0x17, check_bytes[2]=0x03
@@ -36,7 +36,7 @@ int main(int argc, char *argv[])
         exit(0);
     }
 
-    pkt_offset = 24; // PCAP 24 bytes file header
+    pkt_offset = 24; // PCAP 24B file header
 
     while (!fseek(fp, pkt_offset, SEEK_SET))
     {
@@ -91,16 +91,17 @@ int main(int argc, char *argv[])
             /*-------------TCP header-------------*/
             memset(tcp_header, 0, TCP_HEADER_SIZE);
             fread(tcp_header, TCP_HEADER_SIZE, 1, fp);
-            // curse backwards for the sake of reading HEADER LENGTH bytes from the beginning of tcp header
+            // move backwards for the sake of reading ACTUAL HEADER LENGTH bytes from the beginning of tcp header
             fseek(fp, -TCP_HEADER_SIZE, SEEK_CUR);
-            actual_tcp_header_size = High_4(tcp_header->HeaderLen) * 4;
             // tcp header length is counted PER 4 BTYE !!!
+            actual_tcp_header_size = High_4(tcp_header->HeaderLen) * 4;
             HEADER_LEN += actual_tcp_header_size;
             fprintf(output, "|TCP Source Port: %d\n", ntohs(tcp_header->SrcPort));
             fprintf(output, "|TCP Destination Port: %d\n", ntohs(tcp_header->DstPort));
 
             /*-------------TCP Payload-------------*/
             DATA_LEN = pkt_header->caplen - HEADER_LEN;
+            // jump forwards the actual size of tcp header
             fseek(fp, actual_tcp_header_size, SEEK_CUR);
             fread(Payload, DATA_LEN, 1, fp);
             fprintf(output, "|Payload Size: %d bytes\n", DATA_LEN);
