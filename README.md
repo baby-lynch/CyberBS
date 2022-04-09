@@ -1,4 +1,4 @@
-# CyberBS
+# Cyber Behavirol Science
 
 UCAS Cyber Behavior Science homework project </br>
 Extract basic IP,TCP info and more specific info such as Cipher Suite, Server Name from TLS packets
