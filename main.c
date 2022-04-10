@@ -142,7 +142,7 @@ int main()
             break;
         }
     }
-
+    
     fclose(fp);
     fclose(output);
     free(file_header);
