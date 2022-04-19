@@ -1,8 +1,11 @@
 CC ?=gcc
-CFLAGS = -I ./includes
+CFLAGS = -Wall -g
+OBJ=main.c tls_info_extr.c
+OUT=main
+LDFLAGS=-lpcap
 
-all:main.c tls_info_extr.c
-	$(CC) -o main $^  $(CFLAGS) -lpcap
+all:$(OBJ)
+	$(CC) -o $(OUT) $^  $(CFLAGS) $(LDFLAGS)
 
 .PHONY:clean
 clean:
