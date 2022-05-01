@@ -34,7 +34,7 @@
 |Random: 189aaa14ba30d2b45395bef5bd418815f3a51c325a3fd4909956b79a0c7cf77b
 |Session ID: fc2316b3021e14903d8b0a53caec6cf11fc2633d9d9e0046ddae3975190314ba
 |Cipher Suite: { 0xaaaa 0x1301 0x1302 0x1303 0xc02b 0xc02f 0xc02c 0xc030 0xcca9 0xcca8 0xc013 0xc014 0x9c 0x9d 0x2f 0x35 }
-|Server Name: www.instagram.com
+|Server Name: www.instagram.co
 |Version: TLS v1.0
 
  _______________P A C K E T 5_______________
@@ -846,7 +846,7 @@
 |Random: 98b28dea699bddd9cdf9f5c565446d7a2c6676fae5c8a2eccdebcbda7d2387c7
 |Session ID: 0db22c3a501de6210e52b7539a6bbfa9852accc8fad7d5c87d3cfc08c2fd679e
 |Cipher Suite: { 0xfafa 0x1301 0x1302 0x1303 0xc02b 0xc02f 0xc02c 0xc030 0xcca9 0xcca8 0xc013 0xc014 0x9c 0x9d 0x2f 0x35 }
-|Server Name: i.instagram.com
+|Server Name: i.instagram.co
 |Version: TLS v1.0
 
  _______________P A C K E T 94_______________
@@ -1990,7 +1990,7 @@
 |Random: f0751188523e8713c4e24fe44155cdb79058173990338889793af877a2420ba2
 |Session ID: 7ec94b62605187f944c03383853d9dfddfc9663874438118460616701cc2e6b6
 |Cipher Suite: { 0x8a8a 0x1301 0x1302 0x1303 0xc02b 0xc02f 0xc02c 0xc030 0xcca9 0xcca8 0xc013 0xc014 0x9c 0x9d 0x2f 0x35 }
-|Server Name: edge-chat.instagram.com
+|Server Name: edge-chat.instagram.co
 |Version: TLS v1.0
 
  _______________P A C K E T 223_______________
@@ -2059,7 +2059,7 @@
 |Random: cf4e726ac98c108ff713c8508631d37f48ab1352bd35c753e11e5dc2ba532430
 |Session ID: a8bce6f95c783015b8b08e899b3e1f1add3eea7a0f72bc617734e8af173c4aa2
 |Cipher Suite: { 0x2a2a 0x1301 0x1302 0x1303 0xc02b 0xc02f 0xc02c 0xc030 0xcca9 0xcca8 0xc013 0xc014 0x9c 0x9d 0x2f 0x35 }
-|Server Name: scontent-nrt1-1.cdninstagram.com
+|Server Name: scontent-nrt1-1.cdninstagram.co
 |Version: TLS v1.0
 
  _______________P A C K E T 230_______________
@@ -5226,7 +5226,7 @@
 |Random: 72487f9275febff68983e263b88ac628d035453db2b6ab4c02f149b695f9cecd
 |Session ID: dd0f787b7d7d441462614d7becd252bf3edeb993b384697e2980ae3dd69535c5
 |Cipher Suite: { 0x3a3a 0x1301 0x1302 0x1303 0xc02b 0xc02f 0xc02c 0xc030 0xcca9 0xcca8 0xc013 0xc014 0x9c 0x9d 0x2f 0x35 }
-|Server Name: www.instagram.com
+|Server Name: www.instagram.co
 |Version: TLS v1.0
 
  _______________P A C K E T 595_______________
@@ -6598,7 +6598,7 @@
 |Random: 4ada85b29d236e802de1e1ae65bc24b0d04086e4f03b32c494e675ba4164574d
 |Session ID: cbc770a3c853878e303e2c6abbef1676dea12bf138112a35c0d4a10d85d9dca3
 |Cipher Suite: { 0xbaba 0x1301 0x1302 0x1303 0xc02b 0xc02f 0xc02c 0xc030 0xcca9 0xcca8 0xc013 0xc014 0x9c 0x9d 0x2f 0x35 }
-|Server Name: graph.instagram.com
+|Server Name: graph.instagram.co
 |Version: TLS v1.0
 
  _______________P A C K E T 748_______________
@@ -8286,7 +8286,7 @@
 |Random: ec862d8345816a2047fc86e29800a8b1583ac7bf6cf29f924b8008b4fec2bdf0
 |Session ID: dc1e2cd0f19b8e8567ba6b61ef44151e65dee2a7c1bdb727d480dfd2bad6b354
 |Cipher Suite: { 0xfafa 0x1301 0x1302 0x1303 0xc02b 0xc02f 0xc02c 0xc030 0xcca9 0xcca8 0xc013 0xc014 0x9c 0x9d 0x2f 0x35 }
-|Server Name: i.instagram.com
+|Server Name: i.instagram.co
 |Version: TLS v1.0
 
  _______________P A C K E T 936_______________
@@ -29067,7 +29067,7 @@
 |Random: dff6dc5002f3661e402cb98122a6e85ef04408c095be6199c6a4ed74e201d982
 |Session ID: 09a82d7eae7a6c7975e98d444e00b1806248c3bb8700872c5996b0f47f282a36
 |Cipher Suite: { 0xaaaa 0x1301 0x1302 0x1303 0xc02b 0xc02f 0xc02c 0xc030 0xcca9 0xcca8 0xc013 0xc014 0x9c 0x9d 0x2f 0x35 }
-|Server Name: graph.instagram.com
+|Server Name: graph.instagram.co
 |Version: TLS v1.0
 
  _______________P A C K E T 3253_______________

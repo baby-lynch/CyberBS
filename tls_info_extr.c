@@ -32,9 +32,14 @@ void client_hello_handler(struct ClientHello *client_hello)
 
     // Server Name
     fprintf(output, "|Server Name: ");
-    int name_len = client_hello->ExtenstionServerName.sni.server_name_len;
-    server_name = malloc(sizeof(char) * name_len);
-    memcpy(server_name, client_hello->ExtenstionServerName.sni.server_name, name_len);
+    int name_len = BSWAP_16(client_hello->ExtenstionServerName.sni.server_name_len);
+    
+    if(name_len>0){
+        server_name = (char *)malloc(sizeof(char) * (name_len+1));
+        memcpy(server_name, client_hello->ExtenstionServerName.sni.server_name, name_len);
+        server_name[name_len-1]='\0';  // manually terminate string
+    }
+    
     fprintf(output, "%s\n", server_name);
     free(server_name);
 }
