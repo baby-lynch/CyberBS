@@ -1,10 +1,10 @@
-CC ?=gcc
-CFLAGS = -Wall -g
-OBJ=main.c tls_info_extr.c
+CC?=gcc 
+CFLAGS=-Wall -g -fsanitize=address
+SRC=main.c tls_info_extr.c
 OUT=main
-LDFLAGS=-lpcap
+LDFLAGS=-lpcap 
 
-all:$(OBJ)
+all:$(SRC)
 	$(CC) -o $(OUT) $^  $(CFLAGS) $(LDFLAGS)
 
 .PHONY:clean
