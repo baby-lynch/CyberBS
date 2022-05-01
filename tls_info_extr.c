@@ -1,4 +1,4 @@
-#include "includes/tls.h"
+#include "include/tls.h"
 
 void client_hello_handler(struct ClientHello *client_hello)
 {
@@ -36,6 +36,7 @@ void client_hello_handler(struct ClientHello *client_hello)
     server_name = malloc(sizeof(char) * name_len);
     memcpy(server_name, client_hello->ExtenstionServerName.sni.server_name, name_len);
     fprintf(output, "%s\n", server_name);
+    free(server_name);
 }
 
 void server_hello_handler(struct ServerHello *server_hello)
