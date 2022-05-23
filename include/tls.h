@@ -1,8 +1,8 @@
 #ifndef _tls_h_
 #define _tls_h_
 
-#include <netinet/in.h>
 #include <arpa/inet.h>
+#include <netinet/in.h>
 
 #include "util.h"
 
@@ -65,40 +65,36 @@ typedef struct
     u_int16_t suite;
 } __attribute__((packed)) cipher_suite_t;
 
-struct Extension_Header
-{
+struct Extension_Header {
     extension_t type;
     u_int16_t length;
 } __attribute__((packed));
 
-struct SNI
-{
+struct SNI {
     u_int16_t server_name_list_len;
     u_int8_t server_name_type;
     u_int16_t server_name_len;
     char server_name[MAX_NAME_LEN];
 } __attribute__((packed));
 
-struct RecordLayer_Header
-{
-    content_t ContentType;      // Content Type: HandShake/Application...
-    protocol_version_t Version; // TLS Version
-    u_int16_t length;           // Length of Record Layer Message
-} __attribute__((packed));      // Disable byte alignment while compling, otherwise RecordLayer_Header is 6 bytes
+struct RecordLayer_Header {
+    content_t ContentType;       // Content Type: HandShake/Application...
+    protocol_version_t Version;  // TLS Version
+    u_int16_t length;            // Length of Record Layer Message
+} __attribute__((packed));       // Disable byte alignment while compling, otherwise RecordLayer_Header is 6 bytes
 
-struct ClientHello
-{
-    handshake_t Handshake;            // Handshake Type: ClientHello/ServerHello...
-    u_int8_t length[3];               // Length of Client Hello Message
-    protocol_version_t ClientVersion; // TLS Version
-    random_t Random;                  // Random Number
-    u_int8_t session_id_len;          // Length of Session ID
-    session_id_t SessionID;           // Session ID
-    u_int16_t cipher_suite_len;       // Length of Cipher Suites
-    cipher_suite_t CipherSuite[16];   // Cipher Suites
-    u_int8_t compression_method_len;  // Length of Compresssion Methods
-    u_char CompressionMethod;         // Compresssion Methods
-    u_int16_t extension_len;          // Length of Compresssion Extensions
+struct ClientHello {
+    handshake_t Handshake;             // Handshake Type: ClientHello/ServerHello...
+    u_int8_t length[3];                // Length of Client Hello Message
+    protocol_version_t ClientVersion;  // TLS Version
+    random_t Random;                   // Random Number
+    u_int8_t session_id_len;           // Length of Session ID
+    session_id_t SessionID;            // Session ID
+    u_int16_t cipher_suite_len;        // Length of Cipher Suites
+    cipher_suite_t CipherSuite[16];    // Cipher Suites
+    u_int8_t compression_method_len;   // Length of Compresssion Methods
+    u_char CompressionMethod;          // Compresssion Methods
+    u_int16_t extension_len;           // Length of Compresssion Extensions
     struct
     {
         struct Extension_Header header;
@@ -110,15 +106,14 @@ struct ClientHello
     } ExtenstionServerName;
 } __attribute__((packed));
 
-struct ServerHello
-{
-    handshake_t Handshake;            // Handshake Type: ClientHello/ServerHello...
-    u_int8_t length[3];               // Length of Server Hello Message
-    protocol_version_t ClientVersion; // TLS Version
-    random_t Random;                  // Random Number
-    u_int8_t session_id_len;          // Length of Session ID
-    session_id_t SessionID;           // Session ID
-    cipher_suite_t CipherSuite;       // Picked Cipher Suite
+struct ServerHello {
+    handshake_t Handshake;             // Handshake Type: ClientHello/ServerHello...
+    u_int8_t length[3];                // Length of Server Hello Message
+    protocol_version_t ClientVersion;  // TLS Version
+    random_t Random;                   // Random Number
+    u_int8_t session_id_len;           // Length of Session ID
+    session_id_t SessionID;            // Session ID
+    cipher_suite_t CipherSuite;        // Picked Cipher Suite
 } __attribute__((packed));
 
 struct RecordLayer_Header *record_layer_header;
