@@ -1,5 +1,7 @@
+SRCDIR:=`pwd`
+
 CC?=gcc 
-CFLAGS=-Wall -g -fsanitize=address
+CFLAGS=-Wall -g -fsanitize=address -I $(SRCDIR)/include
 LDFLAGS=-lpcap 
 
 SRC=main.c tls_info_extr.c
@@ -11,4 +13,5 @@ all:$(SRC)
 
 .PHONY:clean
 clean:
+	@echo $(SRCDIR)
 	rm -rf main
