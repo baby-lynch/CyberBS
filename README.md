@@ -4,18 +4,19 @@ UCAS Cyber Behavior Science homework project </br>
 Extract basic IP,TCP info and more specific info such as Cipher Suite, Server Name from TLS packets
 
 ## project structure
-├── header.h &emsp;&emsp;// Ethernet, IP, TCP header format defined in here</br>
-├── main</br>
-├── main.c &emsp;&emsp;// read packet one by one from pcap file and extrac IP, TCP info</br>
-├── Makefile</br>
-├── output.txt &emsp;// info extrated from TLS packets printed in this txt file</br>
-├── README.md</br>
-├── tls.h &emsp;&emsp;// structs related to TLS format defined in here</br>
-├── tls_info_extr.c &emsp;&emsp;// extract info specifically from TLS packets</br>
-└── util.h &emsp;&emsp;// global stuffs and utilies
+
+├── include  
+│   &emsp;├── header.h // Ethernet, IP, TCP header format defined in here  
+│   &emsp;├── tls.h  // structs related to TLS format defined in here  
+│   &emsp;└── util.h  // global data and utilies  
+├── main.c &emsp;// read packet one by one from pcap file and extrac IP, TCP info  
+├── Makefile  
+├── memcheck.sh &emsp;// use valgrind to check memory leak  
+├── output.txt  
+├── pcap  &emsp;// pcap files  
+├── README.md  
+└── tls_info_extr.c &emsp;// extract info specifically from TLS packets  
 
 ## dependencies
 
-Libpcap:</br>
-<code>sudo apt install libpcap-dev</code>
-
+libpcap: `sudo apt install libpcap-dev`
